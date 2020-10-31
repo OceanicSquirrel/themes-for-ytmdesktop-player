@@ -1,16 +1,8 @@
 
     
 /*                          >>>>READ ME<<<<
-    
-        WELCOME! I've put together a basic style picker for Youtube Music.
-        They are all monochromatic, dark themed color palletes.
-        You can pick your desired color block by removing the "/*" and "*/
-/*      above and below the block of '--cust' variables under your color choice.
-        
-        If you want to switch colors, place the "/*" and "*/
-/*      back at the beginning and end of the block for the color you will
-        no longer be using.
-    
+
+
         Feel free to tweak the 'cust' variable colors as you wish! Most changes should be
         linked to those 16 variables, but I may have missed some things.
         
