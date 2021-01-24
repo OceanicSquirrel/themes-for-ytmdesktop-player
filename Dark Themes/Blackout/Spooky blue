@@ -104,12 +104,15 @@ html:not(.style-scope)
     
     
         /*Unique to the desktop ytmdesktop app*/    
-.material-icons         /*The icons they added; not present on the web version*/
+i.material-icons         /*The icons they added; not present on the web version*/
         {
             color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
         }
-    
-        /*Unique to the desktop ytmdesktop app*/   
+i.material-icons:hover
+        {
+            color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+        }
+        /*Unique to the desktop ytmdesktop app*/ 
     
     
     
