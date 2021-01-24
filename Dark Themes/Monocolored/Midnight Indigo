@@ -137,7 +137,7 @@ body
     
         ytmusic-pivot-bar-item-renderer:hover, ytmusic-pivot-bar-item-renderer.iron-selected  /*highlighted word*/
     {
-        color: var(--cust-ytmusic-medium-5) !important
+        color: var(--cust-ytmusic-medium-3) !important
     }
         ytmusic-pivot-bar-item-renderer /*non-selected item*/
     {
