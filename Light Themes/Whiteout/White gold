@@ -1,7 +1,6 @@
 /*                          >>>>READ ME<<<<
 
-        The 'Lyrics', 'Miniplayer', and 'Settings' icons are all "invisible" as I haven't found/seen what changes their color.
-        I mean, you're a psycho for using this theme anyways, but I respect you and wish you could see all the buttons.
+        Enjoy the color palette, if you can!
 
                             >>>>READ ME<<<<  
 */    
@@ -14,9 +13,9 @@ html:not(.style-scope)
       
 /*===================Start of custom variables==============================*/           
       
-      --cust-ytmusic-play-nav-color: #f9f9f9;
-      --cust-ytmusic-dark-background: #f9f9f9;
-      --cust-ytmusic-dark-foreground: #f9f9f9;
+      --cust-ytmusic-play-nav-color: #fefefe;
+      --cust-ytmusic-dark-background: #fefefe;
+      --cust-ytmusic-dark-foreground: #fefefe;
       
       --cust-ytmusic-light-text-1: #e6c200;
       --cust-ytmusic-light-2: #e6c200; 
@@ -105,12 +104,15 @@ html:not(.style-scope)
     
     
         /*Unique to the desktop ytmdesktop app*/    
-.material-icons         /*The icons they added; not present on the web version*/
+i.material-icons         /*The icons they added; not present on the web version*/
         {
             color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
         }
-    
-        /*Unique to the desktop ytmdesktop app*/   
+i.material-icons:hover
+        {
+            color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+        }
+        /*Unique to the desktop ytmdesktop app*/     
     
     
     
