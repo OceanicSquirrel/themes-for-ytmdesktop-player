@@ -21,7 +21,7 @@ html:not(.style-scope)
       --cust-ytmusic-light-2: #3200b8; 
       --cust-ytmusic-light-3: #c9bdd3;
       --cust-ytmusic-light-4: #3200b8b3;
-      --cust-ytmusic-light-5: #cbb5d9;
+      --cust-ytmusic-light-5: #4811d9;
       
       --cust-ytmusic-medium-1: #3200b894;
       --cust-ytmusic-medium-2: #d3d0d5;
@@ -134,7 +134,7 @@ body
     
         ytmusic-pivot-bar-item-renderer:hover, ytmusic-pivot-bar-item-renderer.iron-selected  /*highlighted word*/
     {
-        color: var(--cust-ytmusic-medium-5) !important
+        color: var(--cust-ytmusic-light-5) !important
     }
         ytmusic-pivot-bar-item-renderer /*non-selected item*/
     {
