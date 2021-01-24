@@ -1,14 +1,3 @@
-/* ==UserStyle==
-@name           Black and gold - 1/23/2021, 10:55:21 PM
-@namespace      github.com/openstyles/stylus
-@version        0.3.3
-@description    Color themes for Youtube Music Desktop player
-@author         OceanicSquirrel
-==/UserStyle== */
-
-@-moz-document domain("music.youtube.com") {
-
-    
 /*                          >>>>READ ME<<<<
 
         I hope you enjoy!
