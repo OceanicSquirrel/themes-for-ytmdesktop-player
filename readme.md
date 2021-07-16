@@ -2,7 +2,8 @@
 
 Welcome to OceanicSquirrel's themes! (readme presented by Niruzoid!)
 
-There are a total of 10 themes to choose from listed below
+There are a total of 12 themes to choose from listed below
+
 
 *   [Black and Gold](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#black-and-gold)
 *   [Electric Lime](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#electric-lime)
@@ -14,6 +15,9 @@ There are a total of 10 themes to choose from listed below
 *   [Plymouthy Pink](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#plymouthy-pink)
 *   [Rust](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#Rust)
 *   [Shady Green](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#Shady-Green)
+*   [Snow Blind](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#Snow-Blind)
+*   [White Gold](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#White-Gold)
+
 
 ## How to install
 
@@ -72,7 +76,18 @@ Step 6: Enjoy!
 
 [Get it here](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Rust)
 
-### Shady green
+### Shady Green
 <a href="https://ibb.co/JdD5736"><img src="https://i.ibb.co/xsxJjF9/Shady-Green.png" alt="Shady Green Theme" border="0"></a>
 
 [Get it here](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Shady%20Green)
+
+### Snow Blind
+<a href="https://ibb.co/ByDNZxb"><img src="https://i.ibb.co/K2Zwqkd/snow-blind.png" alt="Snow Blind Theme" border="0"></a>
+
+[Get it here](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/blob/main/Light%20Themes/Monocolored/Snow%20blind)
+
+### White Gold
+<a href="https://ibb.co/qBHhQZ0"><img src="https://i.ibb.co/zs3Cvk8/white-gold.png" alt="White Gold Theme" border="0"></a>
+
+[Get it here](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/blob/main/Light%20Themes/Whiteout/White%20gold)
+
