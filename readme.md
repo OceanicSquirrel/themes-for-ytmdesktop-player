@@ -29,31 +29,50 @@ Step 6: Enjoy!
 ## Themes
 ### Black and Gold
 <a href="https://ibb.co/PTpg2SW"><img src="https://i.ibb.co/4sypbQS/5c60b25b3a58638e46148913a6352e8d.png" alt="Black and Gold Theme" border="0"></a>
+
 [Get it here](https://github.com/Niruzoid/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Blackout/Black%20and%20gold)
 
 ### Electric Lime
 <a href="https://ibb.co/h2Cmg1g"><img src="https://i.ibb.co/VM3qLpL/electriclime.png" alt="Electric Lime Theme" border="0"></a>
 
+[Get it here](https://github.com/Niruzoid/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Blackout/Electric%20lime)
+
 ### Spooky Blue
 <a href="https://ibb.co/hykRsTH"><img src="https://i.ibb.co/t4SMB1c/spookyblue.png" alt="spooky Blue Theme" border="0"></a>
+
+[Get it here](https://github.com/Niruzoid/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Blackout/Spooky%20blue)
 
 ### Bright Brown
 <a href="https://ibb.co/8xQJQG2"><img src="https://i.ibb.co/NNGXGfp/basicbrown.png" alt="Basic Brown Theme" border="0"></a>
 
+[Get it here](https://github.com/Niruzoid/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Bright%20Brown)
+
 ### Concrete
 <a href="https://ibb.co/dkFzrxS"><img src="https://i.ibb.co/DwhStTN/concrete.png" alt="Concrete Theme" border="0"></a>
+
+[Get it here](https://github.com/Niruzoid/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Concrete)
 
 ### Eggplant
 <a href="https://ibb.co/5vqMNMg"><img src="https://i.ibb.co/ZKyLnLp/eggplant.png" alt="Eggplant Theme" border="0"></a>
 
+[Get it here](https://github.com/Niruzoid/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Eggplant)
+
 ### Midnight Indigo
 <a href="https://ibb.co/Mkk9Q7G"><img src="https://i.ibb.co/tpp3FDx/Midnight-Indigo.png" alt="Midnight Indigo Theme" border="0"></a>
+
+[Get it here](https://github.com/Niruzoid/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Midnight%20Indigo)
 
 ### Plymouthy Pink
 <a href="https://ibb.co/cbwSfyY"><img src="https://i.ibb.co/7gQdMSk/Plymouthy-Pink.png" alt="Plymouthy Pink Theme" border="0"></a>
 
+[Get it here](https://github.com/Niruzoid/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Plymouthy%20pink)
+
 ### Rust
 <a href="https://ibb.co/2WFKmgD"><img src="https://i.ibb.co/wBd63M9/rust.png" alt="Rust Theme" border="0"></a>
 
+[Get it here](https://github.com/Niruzoid/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Rust)
+
 ### Shady green
 <a href="https://ibb.co/JdD5736"><img src="https://i.ibb.co/xsxJjF9/Shady-Green.png" alt="Shady Green Theme" border="0"></a>
+
+[Get it here](https://github.com/Niruzoid/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Shady%20Green)
