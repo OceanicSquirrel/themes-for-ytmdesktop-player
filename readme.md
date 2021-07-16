@@ -1,21 +1,23 @@
 # YouTube Music Desktop App Themes
 
-Welcome to OceanicSquirrel's themes!
+Welcome to OceanicSquirrel's themes! (readme presented by Niruzoid!)
 
 There are a total of 12 themes to choose from listed below
 
-*   [Black and Gold](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#black-and-gold)
-*   [Electric Lime](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#electric-lime)
-*   [Spooky Blue](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#spooky-blue)
-*   [Bright Brown](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#bright-brown)
-*   [Concrete](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#concrete)
-*   [Eggplant](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#eggplant)
-*   [Midnight Indigo](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#midnight-indigo)
-*   [Plymouthy Pink](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#plymouthy-pink)
-*   [Rust](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#Rust)
-*   [Shady Green](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#Shady-Green)
-*   [Snow Blind](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#Snow-Blind)
-*   [Snow Blind](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#White-Gold)
+
+*   [Black and Gold](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#black-and-gold)
+*   [Electric Lime](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#electric-lime)
+*   [Spooky Blue](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#spooky-blue)
+*   [Bright Brown](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#bright-brown)
+*   [Concrete](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#concrete)
+*   [Eggplant](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#eggplant)
+*   [Midnight Indigo](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#midnight-indigo)
+*   [Plymouthy Pink](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#plymouthy-pink)
+*   [Rust](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#Rust)
+*   [Shady Green](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#Shady-Green)
+*   [Snow Blind](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#Snow-Blind)
+*   [White Gold](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/tree/main#White-Gold)
+
 
 ## How to install
 
@@ -88,3 +90,4 @@ Step 6: Enjoy!
 <a href="https://ibb.co/qBHhQZ0"><img src="https://i.ibb.co/zs3Cvk8/white-gold.png" alt="White Gold Theme" border="0"></a>
 
 [Get it here](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/blob/main/Light%20Themes/Whiteout/White%20gold)
+
