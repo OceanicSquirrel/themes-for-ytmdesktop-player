@@ -4,11 +4,11 @@ Welcome to OceanicSquirrel's themes!
 
 There are a total of 10 themes to choose from listed below
 
-*   [Black and Gold](https://github.com/Niruzoid/themes-for-ytmdesktop-player/new/main#black-and-gold)
-*   [Electric Lime](https://github.com/Niruzoid/themes-for-ytmde/blob/main/readme.md#electric-lime)
-*   [Spooky Blue](https://github.com/Niruzoid/themes-for-ytmde/blob/main/readme.md#spooky-blue)
-*   [Bright Brown](https://github.com/Niruzoid/themes-for-ytmde/blob/main/readme.md#bright-brown)
-*   [Concrete](https://github.com/Niruzoid/themes-for-ytmde/blob/main/readme.md#concrete)
+*   [Black and Gold](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#black-and-gold)
+*   [Electric Lime](https://github.com/Niruzoid/themes-for-ytmdesktop-player/main/readme.md#electric-lime)
+*   [Spooky Blue](https://github.com/Niruzoid/themes-for-ytmdesktop-player/main/readme.md#spooky-blue)
+*   [Bright Brown](https://github.com/Niruzoid/themes-for-ytmdesktop-player/main/readme.md#bright-brown)
+*   [Concrete](https://github.com/Niruzoid/themes-for-ytmdesktop-player/main/readme.md#concrete)
 *   [Eggplant](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Eggplant)
 *   [Midnight Indigo](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Midnight%20Indigo)
 *   [Plymouthy Pink](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Plymouthy%20pink)
