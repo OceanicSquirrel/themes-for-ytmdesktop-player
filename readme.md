@@ -29,6 +29,7 @@ Step 6: Enjoy!
 ## Themes
 ### Black and Gold
 <a href="https://ibb.co/PTpg2SW"><img src="https://i.ibb.co/4sypbQS/5c60b25b3a58638e46148913a6352e8d.png" alt="Black and Gold Theme" border="0"></a>
+[Get it here](https://github.com/Niruzoid/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Blackout/Black%20and%20gold)
 
 ### Electric Lime
 <a href="https://ibb.co/h2Cmg1g"><img src="https://i.ibb.co/VM3qLpL/electriclime.png" alt="Electric Lime Theme" border="0"></a>
