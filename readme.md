@@ -9,11 +9,11 @@ There are a total of 10 themes to choose from listed below
 *   [Spooky Blue](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#spooky-blue)
 *   [Bright Brown](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#bright-brown)
 *   [Concrete](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#concrete)
-*   [Eggplant](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Eggplant)
-*   [Midnight Indigo](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Midnight%20Indigo)
-*   [Plymouthy Pink](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Plymouthy%20pink)
-*   [Rust](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Rust)
-*   [Shady Green](https://github.com/OceanicSquirrel/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Shady%20Green)
+*   [Eggplant](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#eggplant)
+*   [Midnight Indigo](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#midnight-indigo)
+*   [Plymouthy Pink](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#plymouthy-pink)
+*   [Rust](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#Rust)
+*   [Shady Green](https://github.com/Niruzoid/themes-for-ytmdesktop-player/tree/main#Shady-Green)
 
 ## How to install
 
