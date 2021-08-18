@@ -115,7 +115,7 @@ i.material-icons:hover
         {
             color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
         }
-        /*Unique to the desktop ytmdesktop app*/  
+        /*Unique to the desktop ytmdesktop app*/   
     
     
     
@@ -140,7 +140,7 @@ body
     
         ytmusic-pivot-bar-item-renderer:hover, ytmusic-pivot-bar-item-renderer.iron-selected  /*highlighted word*/
     {
-        color: var(--cust-ytmusic-medium-3) !important
+        color: var(--cust-ytmusic-light-5) !important
     }
         ytmusic-pivot-bar-item-renderer /*non-selected item*/
     {
@@ -230,6 +230,12 @@ ytmusic-player-page
         --paper-slider-active-color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
         --paper-slider-knob-color: var(--cust-ytmusic-tertiary-nav-button-color) !important
     }
+                        .volume-slider.ytmusic-player-bar, .expand-volume-slider.ytmusic-player-bar  /*ammended volume slider color for Update*/
+                            {
+                                    --paper-slider-container-color: var(--cust-ytmusic-light-4) !important;
+                                    --paper-slider-active-color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+                                    --paper-slider-knob-color: var(--cust-ytmusic-tertiary-nav-button-color) !important
+                            }
 
     
     
@@ -240,6 +246,11 @@ ytmusic-player-page
     { 
         --iron-icon-fill-color:var(--cust-ytmusic-playbutton-color) !important
     }
+                    tp-yt-iron-icon#icon   /*ammended play-pause button colors for Update*/
+                {
+                        --iron-icon-fill-color:var(--cust-ytmusic-playbutton-color) !important
+                }
+
     .left-controls.ytmusic-player-bar paper-icon-button.ytmusic-player-bar, .left-controls.ytmusic-player-bar .spinner-container.ytmusic-player-bar, .toggle-player-page-button.ytmusic-player-bar
     { 
         --iron-icon-fill-color: var(--cust-ytmusic-tertiary-nav-button-color) !important
