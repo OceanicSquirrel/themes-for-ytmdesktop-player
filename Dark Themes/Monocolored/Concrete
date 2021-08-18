@@ -38,7 +38,10 @@ html:not(.style-scope)
       --cust-ytmusic-header-text-1: #ffffffc9;
       --cust-ytmusic-header-text-2: #ffffffc7;
       
-
+      
+      
+       --cust-ytmusic-scroll-width: 0px;
+      
       
       
 
@@ -48,7 +51,7 @@ html:not(.style-scope)
       
       
       
-      
+
       
       
       
@@ -98,8 +101,10 @@ html:not(.style-scope)
       
       --ytmusic-caption-1_-_color: var(--cust-ytmusic-medium-3) !important;
       
-     
-    
+      --ytmusic-scrollbar-width: var(--cust-ytmusic-scroll-width)!important;
+      --ytd-scrollbar-width: var(--cust-ytmusic-scroll-width)!important;
+      --ytd-scrollbar-scrubber_-_background: var(--cust-ytmusic-dark-background);
+      
 }    
     
     
@@ -116,6 +121,8 @@ i.material-icons:hover
         }
         /*Unique to the desktop ytmdesktop app*/   
     
+    
+ 
     
     
 body 
