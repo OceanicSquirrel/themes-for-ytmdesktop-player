@@ -164,7 +164,12 @@ ytmusic-detail-header-renderer
         background-color: var(--ytmusic-color-black4) !important
     }
 
-
+    .title.ytmusic-detail-header-renderer
+    {
+        color: var(--cust-ytmusic-light-text-1) !important
+    }
+    
+    
     
 ytmusic-player-page
     {
