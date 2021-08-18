@@ -96,7 +96,6 @@ html:not(.style-scope)
       
       --ytmusic-caption-1_-_color: var(--cust-ytmusic-medium-3) !important;
       
-      
      
     
 }    
@@ -188,13 +187,23 @@ ytmusic-player-page
         background-color: var(--ytmusic-color-black1) !important
     }   
   paper-tab.iron-selected.ytmusic-player-page  /*Up Next color*/
-    {
+    {                                                                                           /*depriciated*/
         color: var(--cust-ytmusic-medium-3) !important
     }
+                        tp-yt-paper-tab.iron-selected.ytmusic-player-page  /*ammended up next color Update*/
+                        {
+                            color: var(--cust-ytmusic-medium-3) !important
+                        } 
+           
     paper-tabs.ytmusic-player-page  /*up next line color*/
     {
         --paper-tabs-selection-bar-color: var(--cust-ytmusic-medium-3) !important
     }
+                        #selectionBar.tp-yt-paper-tabs   /*ammended up next line color Update*/
+                         {
+                             border-bottom: 2px solid var(--cust-ytmusic-medium-3) !important;
+                         }
+        
     yt-formatted-string.byline.style-scope.ytmusic-player-queue-item  /*artist part in queue*/
     {
         color: var(--cust-ytmusic-medium-1) !important
