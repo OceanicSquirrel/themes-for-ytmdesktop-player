@@ -194,6 +194,10 @@ ytmusic-player-page
                         {
                             color: var(--cust-ytmusic-medium-3) !important
                         } 
+                        tp-yt-paper-tab.ytmusic-player-page
+                        {
+                            color: var(--cust-ytmusic-medium-3) !important
+                        }
            
     paper-tabs.ytmusic-player-page  /*up next line color*/
     {
