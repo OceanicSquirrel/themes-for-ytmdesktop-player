@@ -285,6 +285,13 @@ ytmusic-player-page
                 --paper-icon-button_-_color: var(--cust-ytmusic-tertiary-nav-button-color) !important
             }
     
+     .style-scope.yt-icon-button[aria-label="Add to playlist"]  /*add to playlist button Update*/
+            {
+                color: var(--cust-ytmusic-tertiary-nav-button-color)
+            }
+    
+    
+    
 /*color of titles*/
     .title.ytmusic-carousel-shelf-basic-header-renderer, .title.ytmusic-immersive-header-renderer, .description.ytmusic-immersive-header-renderer
     {
