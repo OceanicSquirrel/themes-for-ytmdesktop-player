@@ -349,7 +349,7 @@ ytmusic-player-page
 /*explicit badge*/
     yt-icon.ytmusic-inline-badge-renderer
     {
-        color: var(--cust-ytmusic-tertiary-nav-button-color);
+        color: var(--cust-ytmusic-tertiary-nav-button-color) !important
     }
     
     
