@@ -31,12 +31,11 @@ Assuming you have the latest build with the theme selection menu, open the app, 
 
 ### Youtube Music Desktop App (adlerluiz)
 
-Step 1: Click one of the links from the list above and then copy the code
-Step 2: Navigate to the settings of the Youtube Music Desktop App
-Step 3: Go to the appearances tab and turn on custom theme
-Step 4: Click on the pencil icon to open up the editor window
-Step 5: Paste in the code and press the save button
-Step 6: Enjoy!
+* Click one of the links from the list above and then copy the code.
+* Navigate to the settings of the Youtube Music Desktop App.
+* Go to the appearances tab and turn on custom theme.
+* Click on the pencil icon to open up the editor window.
+* Paste in the code and press the save button.
 
 ## Themes
 
