@@ -1,12 +1,3 @@
-/*                          >>>>READ ME<<<<
-
-        I hope you enjoy!
-
-                            >>>>READ ME<<<<  
-*/    
-     
-
-    
 html:not(.style-scope)
   { 
       

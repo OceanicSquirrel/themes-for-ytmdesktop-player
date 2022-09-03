@@ -1,12 +1,3 @@
-/*                          >>>>READ ME<<<<
-
-        Hope you enjoy the blinding light!
-
-                            >>>>READ ME<<<<  
-*/    
-     
-
-    
 html:not(.style-scope)
   { 
       

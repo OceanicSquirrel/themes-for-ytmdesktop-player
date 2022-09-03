@@ -1,12 +1,3 @@
-/*                          >>>>READ ME<<<<
-
-        Enjoy the color palette, if you can!
-
-                            >>>>READ ME<<<<  
-*/    
-     
-
-    
 html:not(.style-scope)
   { 
       
