@@ -405,3 +405,12 @@ ytmusic-player-page
     { 
         background-color: var(--cust-ytmusic-dark-foreground) !important
     }
+    
+    /* REMOVE THIS LINE IF YOU WANT TO APPLY FONTS (Also replace FontName with a font you want to use (ex. HarmonyOS Sans)
+
+    *
+    {
+        font-family: FontName !important
+    }
+
+    */ /* REMOVE THIS LINE IF YOU WANT TO APPLY FONTS */
