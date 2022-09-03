@@ -1,8 +1,8 @@
-# YouTube Music Desktop App Themes
+# YouTube Music CSS Themes
 
-Welcome to OceanicSquirrel's themes! (readme presented by Niruzoid!)
+Various Youtube Music CSS Themes made by OceanicSquirrel. (Original README.md by Niruzoid, refactored by kerichdev)
 
-There are a total of 12 themes to choose from listed below
+There are a total of 12 themes to choose from:
 
 * [Concrete](https://github.com/kerichdev/themes-for-ytmdesktop-player/tree/main#concrete)
 * [Plymouthy Pink](https://github.com/kerichdev/themes-for-ytmdesktop-player/tree/main#plymouthy-pink)
@@ -17,15 +17,25 @@ There are a total of 12 themes to choose from listed below
 * [Snow Blind](https://github.com/kerichdev/themes-for-ytmdesktop-player/tree/main#Snow-Blind)
 * [White Gold](https://github.com/kerichdev/themes-for-ytmdesktop-player/tree/main#White-Gold)
 
-## How to install
+## Installation
 
-Installation is super simple.
+### No client
 
-Step 1: Click one of the links from the list above and then copy the code.\
-Step 2: Navigate to the settings of the Youtube Music Desktop App\
-Step 3: Go to the appearances tab and turn on custom theme\
-Step 4: Click on the pencil icon to open up the editor window\
-Step 5: Paste in the code and press the save button\
+Use any CSS injector to apply the theme to `music.youtube.com` and its sublinks.
+
+### Youtube Music Desktop App (th-ch)
+
+Choose the theme you like, and copy its contents locally, or clone the entire repo.
+
+Assuming you have the latest build with the theme selection menu, open the app, click `Options > Visual Tweaks > Theme > Import custom CSS file`, and choose the CSS file you want to apply.
+
+### Youtube Music Desktop App (adlerluiz)
+
+Step 1: Click one of the links from the list above and then copy the code
+Step 2: Navigate to the settings of the Youtube Music Desktop App
+Step 3: Go to the appearances tab and turn on custom theme
+Step 4: Click on the pencil icon to open up the editor window
+Step 5: Paste in the code and press the save button
 Step 6: Enjoy!
 
 ## Themes
