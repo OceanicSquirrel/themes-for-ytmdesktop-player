@@ -25,7 +25,7 @@ html:not(.style-scope)
       --cust-ytmusic-playbutton-color: #b20dbe;
       --cust-ytmusic-tertiary-nav-button-color: #b20dbe;
         
-      --cust-ytmusic-main-text-1: #ffffff;
+      --cust-ytmusic-main-text-1: #c50ed2;
       --cust-ytmusic-header-text-1: #c50ed2;
       --cust-ytmusic-header-text-2: #c50ed2;
       
@@ -74,6 +74,7 @@ html:not(.style-scope)
       --ytmusic-color-white1-alpha30: var(--cust-ytmusic-light-4) !important;
       --ytmusic-color-white1-alpha50: var(--cust-ytmusic-light-4) !important;
       --ytmusic-color-white1-alpha70: var(--cust-ytmusic-medium-1) !important;
+      --ytmusic-color-white2-alpha70: var(--cust-ytmusic-main-text-1) !important;
       
       --ytmusic-static-brand-red: var(--cust-ytmusic-light-text-1) !important;/*loadingbar*/
       
@@ -312,7 +313,7 @@ ytmusic-player-page
     
     yt-button-renderer[is-paper-button]
     {
-        background-color: var(--ytmusic-color-white1-alpha70) !important
+        background-color: var(--cust-ytmusic-dark-background) !important
     }
     
     paper-icon-button
@@ -329,7 +330,7 @@ ytmusic-player-page
 /*shuffle playlist button*/
     yt-button-renderer.watch-button.ytmusic-menu-renderer
     {
-        color: var(--ytmusic-color-white1) !important;
+        color: var(--cust-ytmusic-dark-background) !important;
         background-color: var(--ytmusic-color-white1-alpha70) !important
     }
 /*edit playlist button*/
