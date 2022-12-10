@@ -43,70 +43,70 @@ Assuming you have the latest build with the theme selection menu, open the app, 
 
 ![Concrete](https://i.ibb.co/sFhgQ7h/Concrete.png "Concrete")
 
-[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Concrete)
+[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Concrete.css)
 
 ### Plymouthy Pink
 
 ![Plymouthy Pink](https://i.ibb.co/c6pWBXS/Plymouthy-Pink.png "Plymouthy Pink")
 
-[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Plymouthy%20pink)
+[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Plymouthy%20Pink.css)
 
 ### Midnight Indigo
 
 ![Midnight Indigo](https://i.ibb.co/239ybg6/Midnight-Indigo.png "Midnight Indigo")
 
-[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Midnight%20Indigo)
+[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Midnight%20Indigo.css)
 
 ### Shady Green
 
 ![Shady Green](https://i.ibb.co/6vyzR0w/Shady-Green.png "Shady Green")
 
-[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Shady%20Green)
+[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Shady%20Green.css)
 
 ### Eggplant
 
 ![Eggplant](https://i.ibb.co/ykp8pv3/Eggplant.png "Eggplant")
 
-[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Eggplant)
+[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Eggplant.css)
 
 ### Rust
 
 ![Rust](https://i.ibb.co/5YS0KLK/Rust.png "Rust")
 
-[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Rust)
+[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Rust.css)
 
 ### Bright Brown
 
 ![Bright Brown](https://i.ibb.co/8dddJh3/Bright-Brown.png "Bright Brown")
 
-[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Bright%20Brown)
+[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Bright%20Brown.css)
 
 ### Black and Gold
 
 ![Black and Gold](https://i.ibb.co/JdFCThr/Blackand-Gold.png "Black and Gold")
 
-[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Blackout/Black%20and%20gold)
+[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Blackout/Black%20and%20Gold.css)
 
 ### Electric Lime
 
 ![Electric Lime](https://i.ibb.co/4Fb1TvF/Electric-Lime.png "Electric Lime")
 
-[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Blackout/Electric%20lime)
+[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Blackout/Electric%20Lime.css)
 
 ### Spooky Blue
 
 ![Spooky Blue](https://i.ibb.co/LNCV8dM/Spooky-Blue.png "Spooky Blue")
 
-[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Blackout/Spooky%20blue)
+[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Blackout/Spooky%20Blue.css)
 
 ### Snow Blind
 
 ![Snow Blind](https://i.ibb.co/dbYtSzG/Snow-Blind.png "Snow Blind")
 
-[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Light%20Themes/Monocolored/Snow%20blind)
+[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Light%20Themes/Monocolored/Snow%20Blind.css)
 
 ### White Gold
 
 ![White Gold](https://i.ibb.co/0GZDcS9/White-Gold.png "White Gold")
 
-[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Light%20Themes/Whiteout/White%20gold)
+[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Light%20Themes/Whiteout/White%20Gold.css)
