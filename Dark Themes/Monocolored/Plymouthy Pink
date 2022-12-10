@@ -405,6 +405,11 @@ ytmusic-player-page
     { 
         background-color: var(--cust-ytmusic-dark-foreground) !important
     }
+/* fix the latest ambient update overriding the colors */
+    div.background-gradient.style-scope.ytmusic-browse-response
+    {
+    background-image: linear-gradient(to bottom, var(--cust-ytmusic-dark-background), var(--cust-ytmusic-dark-background)) !important;
+    }
 
     /* REMOVE THIS LINE IF YOU WANT TO APPLY FONTS (Also replace FontName with a font you want to use (ex. HarmonyOS Sans)
 
