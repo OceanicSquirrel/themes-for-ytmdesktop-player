@@ -2,7 +2,7 @@
 
 Various Youtube Music CSS Themes made by OceanicSquirrel. (Original README.md by Niruzoid, refactored by kerichdev)
 
-There are a total of 12 themes to choose from:
+There are a total of 12 original themes to choose from:
 
 * [Concrete](https://github.com/kerichdev/themes-for-ytmdesktop-player/tree/main#concrete)
 * [Plymouthy Pink](https://github.com/kerichdev/themes-for-ytmdesktop-player/tree/main#plymouthy-pink)
@@ -16,6 +16,10 @@ There are a total of 12 themes to choose from:
 * [Spooky Blue](https://github.com/kerichdev/themes-for-ytmdesktop-player/tree/main#spooky-blue)
 * [Snow Blind](https://github.com/kerichdev/themes-for-ytmdesktop-player/tree/main#Snow-Blind)
 * [White Gold](https://github.com/kerichdev/themes-for-ytmdesktop-player/tree/main#White-Gold)
+
+As well as user submitted ones:
+
+* [Sweetified YTM](https://github.com/kerichdev/themes-for-ytmdesktop-player/tree/main#Sweetified-YTM)
 
 ## Installation
 
@@ -110,3 +114,9 @@ Assuming you have the latest build with the theme selection menu, open the app, 
 ![White Gold](https://i.ibb.co/0GZDcS9/White-Gold.png "White Gold")
 
 [Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Light%20Themes/Whiteout/White%20Gold.css)
+
+### Sweetified YTM
+
+![White Gold](https://i.ibb.co/tpM9hHY/image.png "Sweetified YTM")
+
+[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Blackout/Sweetified%20YTM.css)
