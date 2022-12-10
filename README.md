@@ -117,6 +117,6 @@ Assuming you have the latest build with the theme selection menu, open the app, 
 
 ### Sweetified YTM
 
-![White Gold](https://i.ibb.co/tpM9hHY/image.png "Sweetified YTM")
+![White Gold](https://i.ibb.co/jHjSfb0/image.png "Sweetified YTM")
 
 [Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Blackout/Sweetified%20YTM.css)
