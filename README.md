@@ -1,3 +1,5 @@
+# The current themes are partially broken, and are due a huge rework - stay tuned thank you
+
 # YouTube Music CSS Themes
 
 Various Youtube Music CSS Themes made by OceanicSquirrel. (Original README.md by Niruzoid, refactored by kerichdev)
