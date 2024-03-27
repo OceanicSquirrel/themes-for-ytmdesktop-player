@@ -1,42 +1,33 @@
-/*                          >>>>READ ME<<<<
-
-        Hope you enjoy the blinding light!
-
-                            >>>>READ ME<<<<  
-*/    
-     
-
-    
 html:not(.style-scope)
   { 
       
       
 /*===================Start of custom variables==============================*/           
       
-      --cust-ytmusic-play-nav-color: #fff;
-      --cust-ytmusic-dark-background: #fff;
-      --cust-ytmusic-dark-foreground: #fff;
+      --cust-ytmusic-play-nav-color: #000;
+      --cust-ytmusic-dark-background: #000;
+      --cust-ytmusic-dark-foreground: #000;
       
-      --cust-ytmusic-light-text-1: #929392e6;
-      --cust-ytmusic-light-2: #b5b5b5; 
-      --cust-ytmusic-light-3: #d1d1d1;
-      --cust-ytmusic-light-4: #b7b7b78f;
-      --cust-ytmusic-light-5: #d9d9d9;
+      --cust-ytmusic-light-text-1: #3004d6e0;
+      --cust-ytmusic-light-2: #3200b8; 
+      --cust-ytmusic-light-3: #c9bdd3;
+      --cust-ytmusic-light-4: #3200b8b3;
+      --cust-ytmusic-light-5: #4811d9;
       
-      --cust-ytmusic-medium-1: #b5b5b5c2;
-      --cust-ytmusic-medium-2: #d3d3d3;
-      --cust-ytmusic-medium-3: #c2c2c2;    
+      --cust-ytmusic-medium-1: #3200b894;
+      --cust-ytmusic-medium-2: #d3d0d5;
+      --cust-ytmusic-medium-3: #3200b8;    
       --cust-ytmusic-medium-4: #8d8d8d;
-      --cust-ytmusic-medium-5: #b7b7b7;
+      --cust-ytmusic-medium-5: #3200b8db;
       
-      --cust-ytmusic-subscribe-color: #c2c2c2;
-      --cust-ytmusic-nowplaying-color: #b9b9b9;
-      --cust-ytmusic-playbutton-color:#b7b7b7; 
-      --cust-ytmusic-tertiary-nav-button-color: #b7b7b7;
+      --cust-ytmusic-subscribe-color: #3200b8;
+      --cust-ytmusic-nowplaying-color: #3200b8;
+      --cust-ytmusic-playbutton-color:#3200b8; 
+      --cust-ytmusic-tertiary-nav-button-color: #3200b8;
         
-      --cust-ytmusic-main-text-1: #bbb;
-      --cust-ytmusic-header-text-1: #b9b9b9;
-      --cust-ytmusic-header-text-2: #c6c6c6;
+      --cust-ytmusic-main-text-1: #3200b8;
+      --cust-ytmusic-header-text-1: #3200b8;
+      --cust-ytmusic-header-text-2: #3303b5;
       
       
       
@@ -194,11 +185,11 @@ ytmusic-player-page
     }
     ytmusic-responsive-list-item-renderer
     {
-        background-color: var(--ytmusic-color-black1) !important
+        background-color: var(--ytmusic-cust-dark-background) !important
     }
     ytmusic-player-queue-item
     {
-        background-color: var(--ytmusic-color-black1) !important
+        background-color: var(--ytmusic-cust-dark-background) !important
     }   
   paper-tab.iron-selected.ytmusic-player-page  /*Up Next color*/
     {                                                                                           /*depriciated*/
@@ -349,7 +340,7 @@ ytmusic-player-page
 /*explicit badge*/
     yt-icon.ytmusic-inline-badge-renderer
     {
-        color: var(--cust-ytmusic-tertiary-nav-button-color);
+        color: var(--cust-ytmusic-tertiary-nav-button-color) !important
     }
     
     
@@ -414,5 +405,17 @@ ytmusic-player-page
     { 
         background-color: var(--cust-ytmusic-dark-foreground) !important
     }
+/* fix the latest ambient update overriding the colors */
+    div.background-gradient.style-scope.ytmusic-browse-response
+    {
+    background-image: linear-gradient(to bottom, var(--cust-ytmusic-dark-background), var(--cust-ytmusic-dark-background)) !important;
+    }
 
-}
+    /* REMOVE THIS LINE IF YOU WANT TO APPLY FONTS (Also replace FontName with a font you want to use (ex. HarmonyOS Sans)
+
+    *
+    {
+        font-family: FontName !important
+    }
+
+    */ /* REMOVE THIS LINE IF YOU WANT TO APPLY FONTS */

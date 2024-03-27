@@ -1,12 +1,3 @@
-/*                          >>>>READ ME<<<<
-
-        I hope you enjoy!
-
-                            >>>>READ ME<<<<  
-*/    
-     
-
-    
 html:not(.style-scope)
   { 
       
@@ -194,11 +185,11 @@ ytmusic-player-page
     }
     ytmusic-responsive-list-item-renderer
     {
-        background-color: var(--ytmusic-color-black1) !important
+        background-color: var(--ytmusic-cust-dark-background) !important
     }
     ytmusic-player-queue-item
     {
-        background-color: var(--ytmusic-color-black1) !important
+        background-color: var(--ytmusic-cust-dark-background) !important
     }   
   paper-tab.iron-selected.ytmusic-player-page  /*Up Next color*/
     {                                                                                           /*depriciated*/
@@ -349,7 +340,7 @@ ytmusic-player-page
 /*explicit badge*/
     yt-icon.ytmusic-inline-badge-renderer
     {
-        color: var(--cust-ytmusic-tertiary-nav-button-color);
+        color: var(--cust-ytmusic-tertiary-nav-button-color) !important
     }
     
     
@@ -414,5 +405,17 @@ ytmusic-player-page
     { 
         background-color: var(--cust-ytmusic-dark-foreground) !important
     }
+/* fix the latest ambient update overriding the colors */
+    div.background-gradient.style-scope.ytmusic-browse-response
+    {
+    background-image: linear-gradient(to bottom, var(--cust-ytmusic-dark-background), var(--cust-ytmusic-dark-background)) !important;
+    }
 
-}
+    /* REMOVE THIS LINE IF YOU WANT TO APPLY FONTS (Also replace FontName with a font you want to use (ex. HarmonyOS Sans)
+
+    *
+    {
+        font-family: FontName !important
+    }
+
+    */ /* REMOVE THIS LINE IF YOU WANT TO APPLY FONTS */
