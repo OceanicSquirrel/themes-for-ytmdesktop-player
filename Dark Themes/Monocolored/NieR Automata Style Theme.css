@@ -1,0 +1,695 @@
+/*
+ * NieR Automata Style Theme
+ * Pear Desktop / YouTube Music
+ * Updated for the current Bauhaus sidebar layout
+ */
+
+html:not(.style-scope) {
+
+/*===================Start of custom variables==============================*/
+/* Theme: NieR Automata Style Theme */
+
+    --cust-ytmusic-play-nav-color: #181711;
+    --cust-ytmusic-dark-background: #0d0d0a;
+    --cust-ytmusic-dark-foreground: #16150f;
+
+    --cust-ytmusic-light-text-1: #f3edcf;
+    --cust-ytmusic-light-2: #e7cf70;
+    --cust-ytmusic-light-3: #f0dfa0;
+    --cust-ytmusic-light-4: #e7cf7085;
+    --cust-ytmusic-light-5: #e4c64f;
+
+    --cust-ytmusic-medium-1: #9d8d4fb8;
+    --cust-ytmusic-medium-2: #ddd3a6;
+    --cust-ytmusic-medium-3: #c9b45f;
+    --cust-ytmusic-medium-4: #777469;
+    --cust-ytmusic-medium-5: #b99b20;
+
+    --cust-ytmusic-subscribe-color: #d8b62f;
+    --cust-ytmusic-playbutton-color: #f0d86c;
+    --cust-ytmusic-tertiary-nav-button-color: #d7bd58;
+    --cust-ytmusic-nowplaying-color: #f1d34f;
+
+    --cust-ytmusic-main-text-1: #f2edd6c7;
+    --cust-ytmusic-header-text-1: #f2edd6c9;
+    --cust-ytmusic-header-text-2: #f2edd6c7;
+
+    --cust-ytmusic-scroll-width: 0px;
+
+/*===================end of custom variables==============================*/
+
+    --idk-yet: inherit !important;
+
+    --ytmusic-color-black1: var(--cust-ytmusic-dark-foreground) !important;
+    --ytmusic-color-black2: var(--cust-ytmusic-dark-foreground) !important;
+    --ytmusic-color-black3: var(--cust-ytmusic-dark-foreground) !important;
+    --ytmusic-color-black4: var(--cust-ytmusic-dark-background) !important;
+    --ytmusic-background: var(--cust-ytmusic-dark-background) !important;
+
+    --ytmusic-color-blackpure: var(--idk-yet) !important;
+    --ytmusic-color-blackpure-alpha0: var(--idk-yet) !important;
+    --ytmusic-color-blackpure-alpha10: var(--idk-yet) !important;
+    --ytmusic-color-blackpure-alpha60: var(--idk-yet) !important;
+
+    --ytmusic-color-grey1: var(--cust-ytmusic-light-3) !important;
+    --ytmusic-color-grey2: var(--cust-ytmusic-light-2) !important;
+    --ytmusic-color-grey3: var(--cust-ytmusic-medium-4) !important;
+    --ytmusic-color-grey4: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-grey5: var(--cust-ytmusic-medium-2) !important;
+
+    --ytmusic-color-white1: var(--cust-ytmusic-light-text-1) !important;
+    --ytmusic-color-white1-alpha10: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-white1-alpha15: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-white1-alpha20: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-white1-alpha30: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-white1-alpha50: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-white1-alpha70: var(--cust-ytmusic-medium-1) !important;
+
+    --ytmusic-static-brand-red: var(--cust-ytmusic-light-text-1) !important;
+    --yt-spec-themed-blue: var(--cust-ytmusic-light-5) !important;
+    --yt-spec-dark-blue: var(--cust-ytmusic-medium-5) !important;
+    --yt-spec-text-secondary: var(--cust-ytmusic-medium-5) !important;
+    --yt-spec-brand-link-text: var(--cust-ytmusic-medium-5) !important;
+
+    --ytmusic-setting-item-toggle-active: var(--cust-ytmusic-light-2) !important;
+    --ytmusic-brand-link-text: var(--idk-yet) !important;
+    --ytmusic-overlay-background-brand: var(--idk-yet) !important;
+    --ytmusic-focus-active: var(--idk-yet) !important;
+    --ytmusic-detail-header: var(--idk-yet) !important;
+    --ytmusic-dialog-background-color: var(--cust-ytmusic-dark-background) !important;
+    --ytmusic-caption-1_-_color: var(--cust-ytmusic-medium-3) !important;
+
+    --ytmusic-scrollbar-width: var(--cust-ytmusic-scroll-width) !important;
+    --ytd-scrollbar-width: var(--cust-ytmusic-scroll-width) !important;
+    --ytd-scrollbar-scrubber_-_background: var(--cust-ytmusic-dark-background);
+}
+
+
+/* Pear Desktop icons */
+i.material-icons,
+i.material-icons:hover {
+    color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+}
+
+
+/* Main background */
+html,
+body,
+ytmusic-app,
+ytmusic-app-layout {
+    background: var(--cust-ytmusic-dark-background) !important;
+}
+
+
+/* Current Pear / YouTube Music navigation */
+
+/* Persistent Pear header color across Home / Explore / Library navigation */
+ytmusic-nav-bar,
+#nav-bar-background,
+ytmusic-app-layout #nav-bar-background {
+    background: var(--cust-ytmusic-play-nav-color) !important;
+    background-color: var(--cust-ytmusic-play-nav-color) !important;
+}
+
+/* Keep Pear's functional nav regions transparent so the header color shows through. */
+ytmusic-nav-bar > .left-content,
+ytmusic-nav-bar > .center-content,
+ytmusic-nav-bar > .right-content {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* Route changes can make the sticky header layer visible; keep it on-theme too. */
+ytmusic-tabs.stuck,
+ytmusic-data-bound-header-renderer {
+    background: var(--cust-ytmusic-play-nav-color) !important;
+    background-color: var(--cust-ytmusic-play-nav-color) !important;
+}
+
+#nav-bar-background {
+    background: var(--cust-ytmusic-play-nav-color) !important;
+}
+
+#mini-guide-background,
+#mini-guide-background.ytmusic-app-layout,
+#guide-wrapper {
+    background: var(--cust-ytmusic-dark-background) !important;
+}
+
+ytmusic-app-layout[is-bauhaus-sidenav-enabled] #mini-guide-background.ytmusic-app-layout {
+    background: var(--cust-ytmusic-dark-background) !important;
+}
+
+#nav-bar-divider {
+    border-color: var(--cust-ytmusic-medium-1) !important;
+}
+
+ytmusic-nav-bar {
+    color: var(--cust-ytmusic-main-text-1) !important;
+}
+
+
+/* Hide YouTube Music logo without hiding the new sidebar Home item */
+ytmusic-logo .yt-simple-endpoint[aria-label="Home"],
+#logo .yt-simple-endpoint[aria-label="Home"] {
+    visibility: hidden !important;
+}
+
+
+/* Home / Explore / Library colors */
+ytmusic-pivot-bar-item-renderer:hover,
+ytmusic-pivot-bar-item-renderer.iron-selected,
+ytmusic-pivot-bar-item-renderer[selected] {
+    color: var(--cust-ytmusic-light-5) !important;
+}
+
+ytmusic-pivot-bar-item-renderer {
+    color: var(--cust-ytmusic-light-4) !important;
+}
+
+
+
+/* ============================================================
+   YoRHa Home icon replacement
+   Targets ONLY the first guide entry (Home) in the primary nav.
+   Keeps the native Home entry, click target, label, hover, and active state.
+   ============================================================ */
+
+/* Expanded sidebar Home icon */
+#guide-wrapper
+ytmusic-guide-section-renderer:first-of-type
+#items > ytmusic-guide-entry-renderer:first-child
+> tp-yt-paper-item > yt-icon.guide-icon,
+
+/* Collapsed/icon-only sidebar Home icon */
+#mini-guide
+#items > ytmusic-guide-entry-renderer:first-child
+> tp-yt-paper-item > yt-icon.guide-icon {
+    position: relative !important;
+    width: 24px !important;
+    height: 24px !important;
+    min-width: 24px !important;
+    min-height: 24px !important;
+
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgMTAwMCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ij4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwxMDAwLjAwMDAwMCkgc2NhbGUoMC4xMDAwMDAsLTAuMTAwMDAwKSIgZmlsbD0iI2U5ZTNjOSIgc3Ryb2tlPSIjZTllM2M5IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgogICAgPHBhdGggZD0iTTUwNjYgOTM5MiBjLTIgLTQgLTI3IC04MSAtNTQgLTE3MiAtNzUgLTI0NyAtMTQ0IC01OTEgLTE3MiAtODUwIC02Ci01MiAtMTUgLTEyNCAtMjAgLTE2MCAtMTcgLTEwOSAtNDggLTUyMyAtNTkgLTc3NiAtMTYgLTM3MiAtMzEgLTg1MiAtMzQKLTEwMzggbC0yIC0xNzAgNzcgLTI2IGM5NiAtMzMgMTc5IC04OSAyMjcgLTE1MiAxOSAtMjcgMzkgLTQ4IDQ0IC00OCA1IDAgMzgKMzEgNzIgNjggNjggNzMgMTI4IDExMSAyMTcgMTM3IDQ2IDEzIDU5IDIxIDY0IDQwIDExIDQ2IC00MyAxMzY3IC02NSAxNTg1IC02CjUyIC0xNSAxNTEgLTIxIDIyMCAtNDIgNDcwIC0xMDQgODI5IC0yMDQgMTE3NSAtNDggMTY3IC01NyAxODggLTcwIDE2N3ogbTU5Ci00MDIgYzEwNyAtNDc4IDE0MiAtNzU4IDE3MCAtMTM1NSA4IC0xNzYgMjAgLTQxNyAyNSAtNTM1IDEzIC0yNjUgMzAgLTY5MyAzMAotNzQxIDAgLTM0IC02IC00MCAtMTE2IC0xMjIgLTY1IC00OCAtMTI1IC04NyAtMTM1IC04NyAtMTggMCAtMTkgNDUgLTE5IDE0NDkKMCA3OTcgMyAxNDU3IDYgMTQ2NiAxMCAyNiAyMSA2IDM5IC03NXoiLz4KICAgIDxwYXRoIGQ9Ik0yODY4IDkyNzggYy01NyAtMTc1IC0xMDEgLTM1MiAtMTQzIC01NjggLTE2IC04MSAtODAgLTUyNyAtODkgLTYyNQotMzEgLTMxMSAtODEgLTE0NzYgLTc0IC0xNzI5IGwzIC0xMTggNjIgLTIzIGMxMDAgLTM2IDE3MSAtODQgMjI3IC0xNTMgbDUxCi02NCA2NiA3MCBjODggOTMgMTU2IDEzNCAyNjMgMTU3IGwyOSA2IC03IDIzNyBjLTM2IDEyNDQgLTc1IDE3NDcgLTE3NyAyMjg3Ci01MCAyNjMgLTE0OSA2MzUgLTE2OCA2MzUgLTQgMCAtMjMgLTUxIC00MyAtMTEyeiBtMTA2IC0zNDggYzM3IC0xNDkgODUgLTQ0MwoxMTYgLTcwMCAxNCAtMTIyIDQ3IC02NjggNjAgLTk5MCA2IC0xNTEgMTUgLTM3MiAyMCAtNDkxIDYgLTExOSAxMCAtMjYyIDEwCi0zMTcgbDAgLTEwMSAtMzIgLTI1IGMtNzkgLTYyIC0yMTIgLTE1NiAtMjIwIC0xNTYgLTEwIDAgLTExIDI4ODQgLTEgMjg5NCAxMgoxMiAyMSAtOCA0NyAtMTE0eiIvPgogICAgPHBhdGggZD0iTTM5NzcgODQxOCBjLTE0MSAtMzI1IC0yMDIgLTY0OSAtMjQ3IC0xMzA0IC05IC0xMjYgLTMxIC05NjkgLTI4Ci0xMDM1IDEgLTggMCAtMzEgMCAtNTIgLTIgLTM2IC00IC0zOCAtMjkgLTM1IC0zNSA0IC0zOSAxNyAtNTMgMTgzIC0yMSAyNDcKLTY0IDQ5MiAtMTA2IDYwNSAtMjUgNjYgLTI4IDcxIC00MSA1NCAtMzcgLTUwIC0xMTMgLTQwNCAtMTMwIC02MDYgbC02IC02Ngo1NiAtMzIgYzY4IC0zOCA5MyAtNjIgMTM0IC0xMzIgMzkgLTY1IDU2IC0xNDMgNDggLTIyMyAtOSAtODIgLTMzIC0xNjUgLTQ4Ci0xNjUgLTcgMCAtNDEgOSAtNzQgMjEgLTM2IDEyIC03OSAxOSAtMTA1IDE3IC0zOSAtMyAtNDMgLTYgLTQ2IC0zMiAtNSAtNDAKMTUgLTExNCA0MCAtMTQ4IDI5IC00MSAxMTYgLTEwOCAxNDAgLTEwOCAyOCAwIDEzNiAxMDYgMTY0IDE2MiA0NyA5MiA2MCA3Nwo2MyAtNzAgNCAtMTcyIDcgLTE4MSA2OSAtMjEzIDYzIC0zMiAxMjAgLTc0IDE0NyAtMTA4IDExIC0xNCAzMCAtMzcgNDEgLTUwCmwyMiAtMjUgNzEgNjYgYzQwIDM3IDk2IDgzIDEyNSAxMDIgODEgNTMgODAgNTMgODYgMjAwIDYgMTUyIDEyIDE1OSA2OSA3NiA0MQotNTkgMTM1IC0xMzkgMTY0IC0xNDAgMzEgMCAxMDUgNjAgMTM5IDExMyAzNSA1NSA0OSAxMzYgMjggMTYyIC0xNyAyMCAtNzYgMTkKLTEyNiAtNCAtMjMgLTEwIC01NSAtMjIgLTcxIC0yNSAtMjkgLTcgLTMxIC00IC01NCA0NiAtMTkgNDMgLTIzIDcxIC0yNCAxNDgKMCA4MyAzIDEwMiAyNyAxNTIgMzQgNzIgMTEwIDE1NSAxNjUgMTgwIDI3IDEyIDQ1IDI3IDQ4IDQxIDMgMTIgLTYgOTkgLTIwCjE5MiAtMzggMjU1IC05NSA0ODAgLTExOCA0NzIgLTMyIC0xMCAtMTI0IC00NDYgLTE0NyAtNjkwIC0xNCAtMTQ3IC0xNyAtMTU3Ci00NSAtMTU3IC0zMyAwIC0zOCAzMSAtMzUgMjM0IDMgMTY3IC0xNSA3OTcgLTI1IDkwNiAtMyAzMCAtMTIgMTUwIC0yMSAyNjUKLTggMTE2IC0yNiAyNzMgLTQwIDM1MCAtMTQgNzcgLTI5IDE2NiAtMzQgMTk3IC0yMyAxMzAgLTE0MyA0ODggLTE2NCA0ODggLTIKMCAtNiAtNiAtOSAtMTJ6IG05MiAtNTAzIGM4OCAtNDEwIDExNSAtODM0IDEyNyAtMjAyMiBsNiAtNTQyIC0yNCAtMjMgYy01MQotNDcgLTE0OCAtMTE4IC0xNjMgLTExOCAtMTMgMCAtMTUgMTU0IC0xNSAxNDU4IDAgODAyIDMgMTQ2MiA3IDE0NjYgMTEgMTEgMTgKLTEzIDYyIC0yMTl6Ii8+CiAgICA8cGF0aCBkPSJNMjUxNCA2MDc5IGMtNTggLTE3IC0xMjggLTcyIC0xNjEgLTEyOCAtNTUgLTkzIC01NiAtMjIzIDAgLTIwNyAxMTEKMzIgMjI0IDUgMzExIC03NCA2MCAtNTYgMTA2IC0xMzYgMTA2IC0xODcgMCAtMjggLTcgLTM4IC00NCAtNjUgLTU1IC0zOCAtNzAKLTczIC02MyAtMTQxIDYgLTU4IDU5IC0yMzEgODkgLTI5MiAzOSAtNzcgMTY3IC0yNjEgMjQzIC0zNDggODggLTEwMSA5MCAtODAKLTIwIC0xOTcgLTkyIC05OSAtMTU1IC0yMTkgLTE1NSAtMjk1IDAgLTEwOCAxMTYgLTIyNSAyMjIgLTIyNSA1MCAwIDE1OCA1MwoxNTggNzggMCA5IC0xMSA0NCAtMjUgNzcgLTMxIDc3IC0zNCAxNzIgLTUgMjQ2IDIwIDU1IDU1IDk5IDc3IDk5IDggMCA0OSAtMjAKOTEgLTQ0IDQyIC0yNSAxMTkgLTU5IDE3MCAtNzYgMTEyIC0zNyAxMjMgLTM0IDE1MyA1MCAyOCA3OSAyNiA4OSAtMjMgMTA4Ci04OSAzNCAtMjQ2IDExNiAtMzA4IDE2MCAtMTcyIDEyMSAtMzE1IDI5MCAtMzk1IDQ2NiAtNTkgMTMwIC02NiAxODggLTIzIDIwMAoyNSA2IDU4IC05IDU4IC0yNyAwIC03IDIyIC01OCA0OSAtMTEzIDExNCAtMjM4IDMwOSAtNDM3IDUyMyAtNTMzIDg1IC0zOSAxMjQKLTQ2IDEzMSAtMjcgMTAgMjUgLTExIDEyOSAtMzEgMTU1IC0xMCAxNCAtNDMgMzggLTczIDU0IC0xMjUgNjcgLTI0NiAxNzUKLTMxMSAyNzcgLTg3IDEzNSAtODkgMTQxIC0xMTQgMzI2IC00IDI4IC0xMSAzNCAtNjUgNTQgLTM0IDEzIC02MyAyOCAtNjUgMzUKLTE3IDQyIDEwOSAxOTUgMTk4IDI0MSA0MiAyMSA2MSAyNCAxNTcgMjQgMTA5IDAgMTExIDAgMTE3IDI1IDcgMjggLTExIDExNQotMzQgMTYwIC01MCAxMDAgLTExOCAxNDYgLTIyNyAxNTIgLTY1IDUgLTczIDMgLTExNyAtMjcgLTY5IC00NiAtMTMzIC0xNTAKLTE0OCAtMjQxIC0xMCAtNTkgLTE2IC03MiAtMzYgLTgxIC0zNSAtMTYgLTUzIDYgLTcwIDg3IC0xNSA3MyAtNDggMTQxIC05NQoxOTggLTQ3IDU3IC0xNTYgODIgLTI0NSA1NnoiLz4KICAgIDxwYXRoIGQ9Ik00Njc1IDYwNTcgYy02MSAtMTcgLTE0OSAtMTA5IC0xNjkgLTE3NyAtMTkgLTY0IC0yMCAtMTEyIC00IC0xMjggOAotOCA0OCAtMTIgMTE0IC0xMiA5NCAwIDEwNSAtMiAxNjUgLTMyIDczIC0zOCAxMjkgLTkwIDE1OSAtMTQ3IDMzIC02NiAyOCAtODUKLTI3IC0xMDYgLTU4IC0yMSAtODMgLTQ3IC04MyAtODggMCAtNTQgLTMxIC0xNTkgLTcwIC0yMzcgLTY0IC0xMjcgLTIxNSAtMjczCi0zNTIgLTM0MSAtNzggLTM4IC05MyAtNjEgLTEwNCAtMTU2IGwtNyAtNjMgMzEgMCBjMzkgMCAyNDIgMTA0IDMxOCAxNjIgMTQyCjExMSAyNjIgMjcxIDM0MiA0NTYgNDAgOTIgNjEgMTE0IDkwIDk2IDM1IC0yMyAyMSAtOTEgLTQ1IC0yMjYgLTEzMCAtMjY2Ci0zMzMgLTQ1NiAtNTkzIC01NTggLTEzNCAtNTIgLTEzNCAtNTIgLTEzOCAtODEgLTQgLTQxIDIyIC0xMTEgNTAgLTEzMiAyNQotMTkgMjcgLTE5IDc5IC0yIDMwIDEwIDEwNyA0MiAxNzIgNzIgNjUgMzAgMTI4IDUzIDE0MCA1MSAxMyAtMiAzMyAtMjIgNTIKLTUyIDI5IC00NyAzMCAtNTUgMzAgLTE1NSAtMSAtODcgLTUgLTExNSAtMjMgLTE1NCAtMTIgLTI2IC0xOSAtNTMgLTE2IC02MQoxMCAtMjYgOTcgLTYwIDE1NCAtNjEgMTIyIC0xIDIwMiA3NiAyMTQgMjA1IDcgNjggNiA3NCAtMjUgMTI4IC00NCA3OCAtMTA2CjE1NyAtMTczIDIyMCAtMzEgMjkgLTU2IDU3IC01NiA2MyAwIDUgMzMgNDQgNzQgODcgMTAxIDEwNiAxODQgMjI3IDI0NSAzNTYKNjUgMTM5IDEwMSAyNTMgMTAxIDMxOSAtMSA0OCAtMyA1NCAtMzYgNzcgLTc2IDU0IC04NCA2MiAtODQgODIgMCA4NSA4OCAxOTYKMTk4IDI1MCA2MiAzMSA3NCAzMyAxNjcgMzMgbDEwMCAwIDMgNDYgYzYgOTggLTY4IDIxNyAtMTYxIDI2MCAtNTEgMjIgLTE1MwoyNSAtMjAxIDUgLTQyIC0xNyAtMTA5IC03NyAtMTM2IC0xMjAgLTExIC0xOCAtMzAgLTczIC00MyAtMTIyIC0yMyAtODYgLTI1Ci04OSAtNTMgLTg5IC0yOCAwIC0zMCAzIC01MSA4NyAtMzIgMTIzIC04MyAyMDIgLTE1NSAyMzkgLTQyIDIxIC0xMjYgMjQgLTE5Mwo2eiIvPgogICAgPHBhdGggZD0iTTM1MTAgNTE2NyBjLTUwIC0xNyAtOTggLTUzIC0xMTYgLTg4IC0xMiAtMjMgLTEyIC0zMCAtMiAtMzMgNyAtMwo0OSAtMTUgOTIgLTI3IDk1IC0yNyAxODMgLTg4IDIyMCAtMTUxIDEzIC0yNCAzNiAtNzggNTAgLTEyMCAyMyAtNjggMjYgLTkzCjI2IC0yMjEgMCAtMTE2IC00IC0xNTUgLTE5IC0xOTkgLTM1IC0xMDIgLTc0IC0xNDcgLTEyOCAtMTQ4IC0zMSAwIC0zMyAtMgotMzMgLTM3IDAgLTcyIDY0IC0xMzQgMTQ0IC0xNDAgODQgLTcgOTYgLTExIDk2IC0zNiAtMSAtMzIgLTM3IC0xMDggLTY3IC0xMzkKLTI0IC0yNSAtMzQgLTI4IC05NSAtMjggbC02OSAwIC0xNSAtMzUgYy03IC0xOSAtMTQgLTQ2IC0xNCAtNTkgMCAtMjYgMTggLTM1CjExMiAtNTEgNDMgLTggMTIzIC01OCAxMzggLTg2IDYgLTEwIDE4IC01MyAyNiAtOTYgMjYgLTEyMyAxMDEgLTMxMyAxMjQgLTMxMwoxNyAwIDY4IDc5IDkxIDEzOSAxOSA1MSAzNiAxMjMgNTMgMjIyIDQgMjIgMjAgNTAgNDEgNzIgMzQgMzUgNTUgNDQgMTgzIDc3CjM5IDEwIDQyIDEzIDQyIDQ1IDAgMTkgLTUgNDUgLTExIDU5IC0xMSAyNCAtMTUgMjUgLTczIDE5IC01NiAtNSAtNjQgLTMgLTkyCjIwIC00MCAzNCAtODYgMTIwIC04MiAxNTUgMiAyMiA4IDI3IDI4IDI1IDUwIC0zIDEzNCAxNyAxNjUgNDEgMjEgMTcgMzYgNDAKNDUgNzAgMTcgNjAgOSA3NiAtMzYgNzYgLTQ5IDAgLTk2IDQ4IC0xMTkgMTIxIC0yNiA4MCAtMzIgMjk2IC0xMSAzNzcgMjQgOTcKODIgMjA2IDEzMyAyNTMgNTEgNDcgMTQ4IDk0IDIxMSAxMDIgMjQgMyA0NiA4IDQ5IDEwIDEzIDE0IC0zMiA2NiAtODMgOTcgLTUzCjMyIC02NSAzNSAtMTM0IDM1IC0xMDEgMCAtMTg1IC0zOSAtMjU0IC0xMTcgLTQ0IC01MCAtODYgLTEzMSAtODYgLTE2OCAwIC0zNwotMjMgLTkxIC00MiAtMTAxIC0zMSAtMTYgLTUzIDE0IC02NyA5MiAtMTggMTA3IC0xMDUgMjIwIC0yMDUgMjY4IC01NiAyOAotMTYyIDM3IC0yMTYgMTh6Ii8+CiAgICA8cGF0aCBkPSJNMTk0MCA1MDM3IGMtMjAgLTcgLTQ4IC0zMCAtNjcgLTU1IC0zMiAtNDIgLTMzIC00NiAtMzMgLTE0MiAwIC03Mgo2IC0xMTYgMjEgLTE2NiA0MCAtMTI4IDc5IC0zMjQgNzkgLTM5NyAwIC01MiAtMzIgLTE4MSAtNTYgLTIzMSAtOSAtMTcgLTM0Ci01MiAtNTUgLTc4IC0zOSAtNDcgLTM5IC00NyAtMzkgLTEzNyAwIC04MyAtMiAtOTIgLTIyIC0xMDUgLTEzIC04IC0yNDggLTg5Ci01MjMgLTE4MSAtMjc1IC05MSAtNTMwIC0xNzcgLTU2OCAtMTkyIC0zNyAtMTQgLTcwIC0yMyAtNzQgLTE5IC05IDggLTMgMTIKMTIyIDc5IDQ5IDI3IDE0MCA4MCAyMDEgMTE3IDYxIDM3IDIzMiAxMzcgMzgwIDIyMyA0MzMgMjQ5IDQ0MiAyNTUgNDg1IDMxNwo0NyA2OCA1OSAxMTUgNTkgMjI0IDAgOTMgLTEyIDE0NyAtNTkgMjc2IC0xOCA0NyAtMzYgMTIxIC00MiAxNjUgLTYgNDQgLTE0Cjg0IC0xOSA4OSAtMjkgMjkgLTcwIC04MiAtNzAgLTE4NiAwIC00MyAxMCAtOTggMzAgLTE2NCA1OSAtMTk1IDM1IC0yNDUgLTk4Ci0yMDQgbC02NSAyMCAtMzYgLTI1IGMtMzggLTI2IC0xNjggLTEzOCAtMzcxIC0zMjAgLTY5IC02MSAtMTc5IC0xNTggLTI0NQotMjE1IC02NiAtNTcgLTE4NSAtMTYzIC0yNjQgLTIzNSAtODAgLTcxIC0xODYgLTE2NyAtMjM3IC0yMTIgLTg4IC03OCAtMTI4Ci0xMjIgLTEyMCAtMTMxIDIgLTIgMjQgMiA0NyA4IDQ0IDEyIDc0OSAyNDIgMTI4NCA0MTkgbDI5MCA5NiAxNCA0NSBjMjIgNzIKMjQgNzUgNzYgNzggNTggNCAxNjAgLTI2IDI3MSAtNzkgNjcgLTMyIDk1IC01MiAxNTggLTEyMCA3MCAtNzQgMTM2IC0xNzcgMTM2Ci0yMTIgMCAtMzMgLTc0IC03MSAtMjEyIC0xMDcgLTI2IC03IC01MiAtMTggLTU2IC0yNCAtMTEgLTE0IC02NSAtMTY0IC0xMzQKLTM3NiAtMzAgLTkxIC0xNDkgLTQ0OCAtMjY1IC03OTUgLTExNiAtMzQ2IC0yMTMgLTY0MiAtMjE3IC02NTggLTQgLTE5IC0zCi0yNyA3IC0yNyAxNiAwIDE1NCAxNDIgMjgyIDI5MCA1MCA1NyAxMjIgMTM4IDE2MCAxNzkgMzkgNDIgMTEzIDEyNSAxNjUgMTg1CjUyIDYwIDE1MSAxNzMgMjIwIDI1MCAzODQgNDMxIDQ4MCA1NDMgNDgwIDU2MCAwIDYgLTkgNDAgLTIxIDc2IC0yNiA4NCAtMjgKMTYzIC01IDE4OCA5IDExIDUwIDI5IDkyIDQyIDEwMyAzMCAzMTQgMjYgNDE0IC05IDc5IC0yNyAxNTQgLTc1IDIyNiAtMTQ1IDQ1Ci00MyA1NCAtNTggNTQgLTg3IDAgLTQyIC0xNCAtNjQgLTk3IC0xNTEgLTQwIC00MiAtNjMgLTc0IC02MyAtOTAgMCAtMTIgMjQKLTE0NyA1NCAtMjk4IDMwIC0xNTEgNjEgLTMxMSA3MCAtMzU1IDggLTQ0IDQwIC0yMDEgNzEgLTM1MCAzMSAtMTQ4IDczIC0zNjQKOTUgLTQ4MCA1MyAtMjg3IDEyMSAtNTY1IDE0MCAtNTY1IDkgMCA3IC03IDUzIDIxNSAyMCA5NCA0NSAyMTMgNTcgMjY1IDEyIDUyCjU1IDI1NyA5NSA0NTUgNDEgMTk4IDEwOCA1MjYgMTQ5IDcyOCA0MiAyMDMgNzYgMzc2IDc2IDM4NCAwIDggLTMzIDUwIC03NCA5MgotMTA2IDExMCAtMTE2IDEzOCAtNzEgMTk3IDMwIDM5IDEyNyAxMTAgMjAxIDE0NyAxMDQgNTMgMjc0IDc4IDM4OSA1OSA5MyAtMTYKMTc1IC00MiAxOTYgLTYzIDI4IC0yOCAyNCAtODMgLTExIC0xNjQgLTE2IC0zOSAtMzAgLTgxIC0zMCAtOTQgMCAtMTYgMjUgLTQ5Cjc4IC0xMDUgNzUgLTc4IDIwOSAtMjMxIDMwMiAtMzQ2IDQzIC01MyAxNTYgLTE3OCAzMTAgLTM0NCA0MSAtNDUgMTMzIC0xNTEKMjA0IC0yMzYgNzEgLTg1IDE2MyAtMTkxIDIwNSAtMjM1IDQyIC00NCAxMDUgLTExMSAxNDAgLTE0OCAzNSAtMzcgNjYgLTY1IDY5Ci02MiA2IDUgLTYxIDIyMCAtMTUzIDQ5NSAtMzEgOTEgLTE0NCA0MzEgLTI1MSA3NTUgLTEwNyAzMjUgLTIwMSA1OTYgLTIwOAo2MDMgLTcgNyAtNDAgMTkgLTczIDI3IC03MiAxNyAtMTY0IDU5IC0xODggODYgLTI2IDI4IC0xMyA3OSAzOSAxNTEgODEgMTE0CjE1MSAxNjYgMzMyIDI0OCA5NSA0MyAxMzAgNTQgMTcyIDU0IDQ1IDEgNTcgLTMgNzMgLTIzIDExIC0xMyAyMiAtMzUgMjQgLTUwCjE1IC03MyAxMyAtNzEgMTQ1IC0xMTYgMzg5IC0xMzQgMTQ2NCAtNDg1IDE0ODMgLTQ4NSAyMyAxIC0zMSA1NiAtMTk5IDIwMwotMjEwIDE4NSAtMzE3IDI3OSAtMzg5IDM0NiAtNDQgNDAgLTEyMSAxMDYgLTE3MCAxNDYgLTUwIDQwIC0xMjkgMTA5IC0xNzYKMTUyIC0xMjggMTE3IC0yODggMjU2IC0zMTcgMjc1IC0yMyAxNSAtMjggMTUgLTgwIC0zIC02MyAtMjIgLTExMyAtMjQgLTEzMAotNyAtMjEgMjEgLTEzIDEwMyAyMyAyMjcgMTkgNjYgMzUgMTM5IDM0IDE2MyAwIDUyIC00MSAxNjMgLTU5IDE2MyAtOSAwIC0xOAotMjQgLTI2IC03MCAtNyAtMzggLTMxIC0xMjUgLTUzIC0xOTIgLTM2IC0xMDcgLTQxIC0xMzQgLTQxIC0yMTAgMCAtNzIgNSAtOTcKMjUgLTE0MCAyOCAtNjIgMzIgLTYzIDE1MCAtMzIgMTI2IDM0IDEzMSAzNCAxNjMgOCAxNiAtMTMgMTA3IC05NCAyMDMgLTE3OQo5NiAtODYgMjMyIC0yMDQgMzAyIC0yNjQgMTc1IC0xNDcgMzYwIC0zMjkgMzI3IC0zMjEgLTQxIDExIC0yNDQgMTExIC00MjUKMjA5IC05MyA1MSAtMjQ5IDEzNSAtMzQ1IDE4NiAtOTYgNTEgLTIwNCAxMDggLTIzOSAxMjcgLTE3NiA5NSAtMjUyIDE5NyAtMjY3CjM2MiAtNyA3MyAxIDExMyA2MSAzMTEgNjAgMTk4IDYwIDMyMiAxIDM4OCAtNDIgNDggLTczIDU3IC0xOTYgNTYgLTEwOCAwCi0xMTkgLTIgLTE3MCAtMzAgLTYzIC0zNCAtMTIwIC04NyAtMTIwIC0xMTIgMCAtMTAgMjIgLTQzIDQ4IC03MyA3MiAtODEgODAKLTk5IDk4IC0yMDYgMTQgLTgxIDE1IC0xMTIgNiAtMTc5IC0xOCAtMTM5IC05NSAtMzAzIC0yMTMgLTQ1NCAtMTM3IC0xNzcKLTE3MiAtMjI4IC0yMTEgLTMwOCBsLTQzIC04NyAwIC0xMjUgYzAgLTEwMCA0IC0xMzIgMTggLTE2MiAxOCAtMzUgMjIgLTM3CjEzNSAtNjggNjQgLTE3IDE0MSAtMzkgMTcxIC00OCBsNTQgLTE3IDU5IC0xNzUgYzMyIC05NiA3OSAtMjM4IDEwNCAtMzE1IDI0Ci03NyA1OCAtMTc4IDc0IC0yMjUgNzkgLTIzMSAxOTAgLTU4MyAxODUgLTU4OCAtMTggLTE4IC0xMDIgOTggLTI0MCAzMzMgLTQ5CjgzIC0xMTAgMTgyIC0xMzUgMjIwIC0yNiAzOSAtODkgMTQwIC0xNDAgMjI1IC01MSA4NSAtMTQ4IDI0NSAtMjE2IDM1NSAtMTQ5CjI0NCAtMTc0IDMxMiAtMTc0IDQ4NSAwIDExOSAxMiAxNjQgNzQgMjg5IDM3IDcyIDY2IDExMyAyMTEgMjk2IDk0IDExOCAxNDAKMTk2IDE3MCAyODQgNDQgMTI4IDMwIDI3MiAtMzUgMzc0IGwtMzAgNDcgLTYyIDAgYy03MCAwIC0xMzkgLTI3IC0xOTUgLTc0CmwtMzMgLTI4IDMgLTEwMSBjMiAtMTAwIDEgLTEwNCAtMzUgLTE3OCBsLTM4IC03NyAyMSAtNTggYzMyIC05MSAyOSAtMTc2IC05Ci0yNTEgLTQyIC04NSAtODYgLTEzMCAtMTYxIC0xNjQgLTEwOSAtNTAgLTIzNSAtMzQgLTMzMSA0MiAtMjcgMjEgLTU3IDM5IC02NwozOCAtMTAgMCAtNTYgLTE3IC0xMDMgLTM3IC04MSAtMzYgLTg1IC0zOSAtODIgLTY3IDkgLTEwMSA2IC0xNTIgLTExIC0xODcKLTIwIC00MCAtNDIgLTUxIC0xMzIgLTY5IC04OSAtMTcgLTExMyAtMzIgLTEyMSAtNzcgLTIwIC0xMTggLTg2IC0yOTcgLTE1NQotNDE5IC0xNiAtMjkgLTI5IC01OCAtMjkgLTY1IDAgLTYgNjggLTgwIDE1MSAtMTY0IDE0NiAtMTQ3IDE1MiAtMTU0IDE0NgotMTg2IC0zIC0xOCAtMzggLTE4NiAtNzYgLTM3MyAtMzggLTE4NyAtMTAxIC00OTMgLTE0MCAtNjgwIC05NyAtNDc1IC0xMDAKLTQ4NSAtMTIyIC00ODUgLTkgMCAtMTAgMjEzIC01IDkxMyBsNyA5MTMgLTMxIDM5IGMtNTMgNjcgLTE0MCAyMjEgLTE2NCAyOTMKLTEzIDM3IC0zMyAxMTEgLTQ1IDE2NCAtMjUgMTA5IC0yNyAxMTEgLTE0NSAxMzQgLTgyIDE2IC0xMTEgMzMgLTEzMyA4MCAtMTUKMzEgLTE1IDQxIC00IDk3IDIzIDEwNCAyNyA5NiAtODEgMTQ1IGwtOTcgNDMgLTQ4IC0zNyBjLTgxIC02MiAtMTI1IC03NyAtMjE0Ci03MiAtMTQ0IDggLTI0MiA3NyAtMjk1IDIwNiAtMjkgNzAgLTMwIDEzMSAtNCAyMTQgMjMgNzUgMjUgOTcgNiAxMjMgLTM1IDUxCi01NiAxMzYgLTU2IDIyNCAwIDgyIC0yIDg5IC0yNyAxMTQgLTE2IDE0IC01NCAzOCAtODUgNTIgLTQ2IDIxIC02OSAyNSAtMTIwCjIzIC02MCAtMyAtNjMgLTQgLTg5IC00MyAtNTkgLTg3IC03NCAtMjE0IC0zOSAtMzQ5IDMwIC0xMTcgOTYgLTIyOSAyMzUgLTQwMQoxMzEgLTE2MSAxODYgLTI1NyAyMjIgLTM4OSAyMSAtNzQgMjMgLTI3MyA0IC0zODcgbC0xMiAtNzUgNDIgLTEyMiBjMjYgLTc4CjM5IC0xMzEgMzUgLTE0NiAtNyAtMjcgLTI2IC01MCAtMjQxIC0yOTcgLTgyIC05NCAtMTc1IC0yMDAgLTIwNSAtMjM1IC0zMAotMzUgLTEzOCAtMTU3IC0yNDAgLTI3MSAtMTAyIC0xMTUgLTIwNyAtMjM2IC0yMzUgLTI2OSAtNTcgLTcwIC05NSAtMTAyIC05NQotODIgMCA3IDMwIDYwIDY2IDExOCAzNiA1OCA3NyAxMjUgOTAgMTUwIDE0IDI1IDQyIDc0IDYzIDExMCAyMCAzNiA1NCA5NyA3NQoxMzUgMjEgMzkgNTEgOTAgNjYgMTE1IDU2IDkyIDI1OSA0NDcgMjg1IDUwMCAxNSAzMCAzNSA2NiA0NSA4MCA0MiA2MCAxMzkKMjUxIDE2MCAzMTUgMzQgMTAwIDM0IDI1MSAxIDM1MCAtNDAgMTE3IC02OCAxNjYgLTE2MiAyODUgLTE3MCAyMTYgLTIzNSAzMjUKLTI5MCA0ODkgLTYwIDE3NiAtMjAgMzgzIDk1IDQ5MiAyNSAyNCA0NiA0OSA0NiA1NSAwIDI1IC0xMDggMTEwIC0xNjAgMTI3Ci02MiAyMCAtMjI2IDIyIC0yODAgNHoiLz4KICA8L2c+Cjwvc3ZnPg==") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+
+    color: transparent !important;
+}
+
+/* Hide ONLY the stock SVG/path inside that exact Home icon container. */
+#guide-wrapper
+ytmusic-guide-section-renderer:first-of-type
+#items > ytmusic-guide-entry-renderer:first-child
+> tp-yt-paper-item > yt-icon.guide-icon svg,
+
+#mini-guide
+#items > ytmusic-guide-entry-renderer:first-child
+> tp-yt-paper-item > yt-icon.guide-icon svg {
+    opacity: 0 !important;
+}
+
+
+
+/* ============================================================
+   YoRHa Explore + Library icon replacements
+   Primary sidebar order is Home, Explore, Library.
+   These selectors change ONLY the icon artwork; native links,
+   labels, hover states, active states, and click targets remain.
+   ============================================================ */
+
+/* EXPLORE — second primary guide entry */
+#guide-wrapper
+ytmusic-guide-section-renderer:first-of-type
+#items > ytmusic-guide-entry-renderer:nth-child(2)
+> tp-yt-paper-item > yt-icon.guide-icon {
+    position: relative !important;
+    width: 24px !important;
+    height: 24px !important;
+    min-width: 24px !important;
+    min-height: 24px !important;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8ZyBmaWxsPSIjZTllM2M5Ij4KICAgIDxwb2x5Z29uIHBvaW50cz0iMzIsNyA0NCwxOSAzMiwzMSAyMCwxOSIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIxOCwyMSAzMCwzMyAxOCw0NSA2LDMzIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjQ2LDIxIDU4LDMzIDQ2LDQ1IDM0LDMzIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjMyLDM1IDQ0LDQ3IDMyLDU5IDIwLDQ3Ii8+CiAgPC9nPgo8L3N2Zz4K") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    color: transparent !important;
+}
+
+#guide-wrapper
+ytmusic-guide-section-renderer:first-of-type
+#items > ytmusic-guide-entry-renderer:nth-child(2)
+> tp-yt-paper-item > yt-icon.guide-icon svg {
+    opacity: 0 !important;
+}
+
+/* LIBRARY — third primary guide entry */
+#guide-wrapper
+ytmusic-guide-section-renderer:first-of-type
+#items > ytmusic-guide-entry-renderer:nth-child(3)
+> tp-yt-paper-item > yt-icon.guide-icon {
+    position: relative !important;
+    width: 24px !important;
+    height: 24px !important;
+    min-width: 24px !important;
+    min-height: 24px !important;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8cGF0aCBkPSJNNC4wMCw3Ljg2IEw0LjAwLDU2LjE0IEw5Ljc5LDU2LjE0IEw5Ljc5LDUzLjI0IEwxMC43Niw1Mi4yOCBMNTUuMTcsNTIuMjggTDU2LjE0LDUzLjI0IEw1Ni4xNCw1Ni4xNCBMNTkuMDMsNTYuMTQgTDU5LjAzLDYuOTAgTDQuOTcsNi45MCBaIE05Ljc5LDMyLjk3IEwxMC43NiwzMi4wMCBMNTUuMTcsMzIuMDAgTDU2LjE0LDMyLjk3IEw1Ni4xNCw0NC41NSBMNTQuMjEsNDYuNDggTDUyLjI4LDQ2LjQ4IEw1MS4zMSw0NS41MiBMNTEuMzEsMzYuODMgTDUwLjM0LDM1Ljg2IEw0Ni40OCwzNS44NiBMNDYuNDgsNDUuNTIgTDQ0LjU1LDQ2LjQ4IEw0My41OSw0NS41MiBMNDMuNTksMzYuODMgTDQyLjYyLDM1Ljg2IEwzOC43NiwzNS44NiBMMzcuNzksMzYuODMgTDM3Ljc5LDQzLjU5IEwzOC43Niw0NC41NSBMMzYuODMsNDYuNDggTDM1Ljg2LDQ1LjUyIEwzNS44NiwzNi44MyBMMzQuOTAsMzUuODYgTDMxLjAzLDM1Ljg2IEwzMC4wNywzNi44MyBMMzAuMDcsNDUuNTIgTDI5LjEwLDQ2LjQ4IEwyNy4xNyw0NC41NSBMMjcuMTcsMzUuODYgTDIzLjMxLDM1Ljg2IEwyMi4zNCwzNi44MyBMMjIuMzQsNDUuNTIgTDIwLjQxLDQ2LjQ4IEwxOS40NSw0NS41MiBMMTkuNDUsMzUuODYgTDE1LjU5LDM1Ljg2IEwxNC42MiwzNi44MyBMMTQuNjIsNDUuNTIgTDEzLjY2LDQ2LjQ4IEwxMC43Niw0Ni40OCBMOS43OSw0NS41MiBaIE05Ljc5LDE0LjYyIEwxMC43NiwxMy42NiBMNTUuMTcsMTMuNjYgTDU2LjE0LDE0LjYyIEw1Ni4xNCwyNy4xNyBMNTUuMTcsMjguMTQgTDUyLjI4LDI4LjE0IEw1MS4zMSwyNy4xNyBMNTEuMzEsMTguNDggTDQ2LjQ4LDE4LjQ4IEw0Ni40OCwyNy4xNyBMNDQuNTUsMjguMTQgTDQzLjU5LDI3LjE3IEw0My41OSwxOC40OCBMMzguNzYsMTguNDggTDM3Ljc5LDE5LjQ1IEwzNy43OSwyNS4yNCBMMzguNzYsMjcuMTcgTDM2LjgzLDI4LjE0IEwzNS44NiwyNy4xNyBMMzUuODYsMTguNDggTDMwLjA3LDE4LjQ4IEwzMC4wNywyNy4xNyBMMjguMTQsMjguMTQgTDI3LjE3LDI3LjE3IEwyNy4xNywxOC40OCBMMjIuMzQsMTguNDggTDIyLjM0LDI3LjE3IEwyMC40MSwyOC4xNCBMMTkuNDUsMjcuMTcgTDE5LjQ1LDE4LjQ4IEwxNC42MiwxOC40OCBMMTQuNjIsMjcuMTcgTDEzLjY2LDI4LjE0IEwxMC43NiwyOC4xNCBMOS43OSwyNy4xNyBaIiBmaWxsPSIjZTllM2M5IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+Cg==") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    color: transparent !important;
+}
+
+#guide-wrapper
+ytmusic-guide-section-renderer:first-of-type
+#items > ytmusic-guide-entry-renderer:nth-child(3)
+> tp-yt-paper-item > yt-icon.guide-icon svg {
+    opacity: 0 !important;
+}
+
+/* Icon-only / mini-guide variants, preserving the same Home/Explore/Library order. */
+#mini-guide
+#items > ytmusic-guide-entry-renderer:nth-child(2)
+> tp-yt-paper-item > yt-icon.guide-icon {
+    position: relative !important;
+    width: 24px !important;
+    height: 24px !important;
+    min-width: 24px !important;
+    min-height: 24px !important;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8ZyBmaWxsPSIjZTllM2M5Ij4KICAgIDxwb2x5Z29uIHBvaW50cz0iMzIsNyA0NCwxOSAzMiwzMSAyMCwxOSIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIxOCwyMSAzMCwzMyAxOCw0NSA2LDMzIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjQ2LDIxIDU4LDMzIDQ2LDQ1IDM0LDMzIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjMyLDM1IDQ0LDQ3IDMyLDU5IDIwLDQ3Ii8+CiAgPC9nPgo8L3N2Zz4K") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    color: transparent !important;
+}
+
+#mini-guide
+#items > ytmusic-guide-entry-renderer:nth-child(2)
+> tp-yt-paper-item > yt-icon.guide-icon svg {
+    opacity: 0 !important;
+}
+
+#mini-guide
+#items > ytmusic-guide-entry-renderer:nth-child(3)
+> tp-yt-paper-item > yt-icon.guide-icon {
+    position: relative !important;
+    width: 24px !important;
+    height: 24px !important;
+    min-width: 24px !important;
+    min-height: 24px !important;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8cGF0aCBkPSJNNC4wMCw3Ljg2IEw0LjAwLDU2LjE0IEw5Ljc5LDU2LjE0IEw5Ljc5LDUzLjI0IEwxMC43Niw1Mi4yOCBMNTUuMTcsNTIuMjggTDU2LjE0LDUzLjI0IEw1Ni4xNCw1Ni4xNCBMNTkuMDMsNTYuMTQgTDU5LjAzLDYuOTAgTDQuOTcsNi45MCBaIE05Ljc5LDMyLjk3IEwxMC43NiwzMi4wMCBMNTUuMTcsMzIuMDAgTDU2LjE0LDMyLjk3IEw1Ni4xNCw0NC41NSBMNTQuMjEsNDYuNDggTDUyLjI4LDQ2LjQ4IEw1MS4zMSw0NS41MiBMNTEuMzEsMzYuODMgTDUwLjM0LDM1Ljg2IEw0Ni40OCwzNS44NiBMNDYuNDgsNDUuNTIgTDQ0LjU1LDQ2LjQ4IEw0My41OSw0NS41MiBMNDMuNTksMzYuODMgTDQyLjYyLDM1Ljg2IEwzOC43NiwzNS44NiBMMzcuNzksMzYuODMgTDM3Ljc5LDQzLjU5IEwzOC43Niw0NC41NSBMMzYuODMsNDYuNDggTDM1Ljg2LDQ1LjUyIEwzNS44NiwzNi44MyBMMzQuOTAsMzUuODYgTDMxLjAzLDM1Ljg2IEwzMC4wNywzNi44MyBMMzAuMDcsNDUuNTIgTDI5LjEwLDQ2LjQ4IEwyNy4xNyw0NC41NSBMMjcuMTcsMzUuODYgTDIzLjMxLDM1Ljg2IEwyMi4zNCwzNi44MyBMMjIuMzQsNDUuNTIgTDIwLjQxLDQ2LjQ4IEwxOS40NSw0NS41MiBMMTkuNDUsMzUuODYgTDE1LjU5LDM1Ljg2IEwxNC42MiwzNi44MyBMMTQuNjIsNDUuNTIgTDEzLjY2LDQ2LjQ4IEwxMC43Niw0Ni40OCBMOS43OSw0NS41MiBaIE05Ljc5LDE0LjYyIEwxMC43NiwxMy42NiBMNTUuMTcsMTMuNjYgTDU2LjE0LDE0LjYyIEw1Ni4xNCwyNy4xNyBMNTUuMTcsMjguMTQgTDUyLjI4LDI4LjE0IEw1MS4zMSwyNy4xNyBMNTEuMzEsMTguNDggTDQ2LjQ4LDE4LjQ4IEw0Ni40OCwyNy4xNyBMNDQuNTUsMjguMTQgTDQzLjU5LDI3LjE3IEw0My41OSwxOC40OCBMMzguNzYsMTguNDggTDM3Ljc5LDE5LjQ1IEwzNy43OSwyNS4yNCBMMzguNzYsMjcuMTcgTDM2LjgzLDI4LjE0IEwzNS44NiwyNy4xNyBMMzUuODYsMTguNDggTDMwLjA3LDE4LjQ4IEwzMC4wNywyNy4xNyBMMjguMTQsMjguMTQgTDI3LjE3LDI3LjE3IEwyNy4xNywxOC40OCBMMjIuMzQsMTguNDggTDIyLjM0LDI3LjE3IEwyMC40MSwyOC4xNCBMMTkuNDUsMjcuMTcgTDE5LjQ1LDE4LjQ4IEwxNC42MiwxOC40OCBMMTQuNjIsMjcuMTcgTDEzLjY2LDI4LjE0IEwxMC43NiwyOC4xNCBMOS43OSwyNy4xNyBaIiBmaWxsPSIjZTllM2M5IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+Cg==") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    color: transparent !important;
+}
+
+#mini-guide
+#items > ytmusic-guide-entry-renderer:nth-child(3)
+> tp-yt-paper-item > yt-icon.guide-icon svg {
+    opacity: 0 !important;
+}
+
+
+/* New sidebar navigation */
+ytmusic-guide-entry-renderer,
+ytmusic-guide-entry-renderer a,
+ytmusic-guide-entry-renderer yt-formatted-string {
+    color: var(--cust-ytmusic-main-text-1) !important;
+}
+
+ytmusic-guide-entry-renderer:hover,
+ytmusic-guide-entry-renderer[active],
+ytmusic-guide-entry-renderer[is-active] {
+    color: var(--cust-ytmusic-light-5) !important;
+}
+
+ytmusic-guide-entry-renderer yt-icon,
+ytmusic-guide-entry-renderer tp-yt-iron-icon,
+.icon.ytmusic-menu-navigation-item-renderer {
+    color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+}
+
+
+/* Header branding — centered above the search bar, fully contained in the 90px header */
+ytmusic-search-box {
+    position: relative !important;
+
+    /*
+     * Lower the search field slightly so the branding has its own line above it.
+     * The combined title + search box stays inside Pear's existing 90px navbar,
+     * so it does not overlap the page content below.
+     */
+    margin-top: 16px !important;
+}
+
+ytmusic-search-box::before {
+    content: "YoRHa System|Music Player";
+    position: absolute !important;
+
+    left: 50% !important;
+    top: -18px !important;
+    transform: translateX(-50%) !important;
+
+    width: 100% !important;
+    text-align: center !important;
+
+    color: #d7bd58;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: 0.9;
+
+    pointer-events: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-app-region: no-drag;
+}
+
+
+/* Search */
+ytmusic-search-box {
+    color: var(--cust-ytmusic-light-4) !important;
+}
+
+ytmusic-search-box[is-bauhaus-sidenav-enabled] {
+    --ytmusic-search-background: var(--cust-ytmusic-dark-foreground) !important;
+}
+
+ytmusic-search-box input,
+ytmusic-search-box #input {
+    color: var(--cust-ytmusic-light-text-1) !important;
+}
+
+
+/* Sticky tabs */
+ytmusic-tabs.stuck {
+    background: var(--cust-ytmusic-play-nav-color) !important;
+}
+
+
+/* New recommendations popup */
+a.ytmusic-content-update-chip {
+    color: var(--ytmusic-color-black4) !important;
+    background-color: var(--ytmusic-color-grey2) !important;
+}
+
+
+/* Detail headers */
+ytmusic-detail-header-renderer {
+    background-color: var(--ytmusic-color-black4) !important;
+}
+
+.title.ytmusic-detail-header-renderer {
+    color: var(--cust-ytmusic-light-text-1) !important;
+}
+
+ytmusic-data-bound-header-renderer {
+    background-color: var(--cust-ytmusic-play-nav-color) !important;
+}
+
+
+/* Main content / player page */
+ytmusic-player-page,
+#player-page {
+    background-color: var(--ytmusic-color-black4) !important;
+}
+
+ytmusic-list-item-renderer {
+    background-color: var(--ytmusic-color-black1) !important;
+}
+
+ytmusic-responsive-list-item-renderer,
+ytmusic-player-queue-item {
+    background-color: var(--cust-ytmusic-dark-background) !important;
+}
+
+
+/* Current Pear player-page spacing */
+ytmusic-app-layout > [slot="player-page"]:not([is-mweb-modernization-enabled]):not(:has(ytmusic-player[player-ui-state="FULLSCREEN"])) {
+    padding-top: 90px;
+    margin-top: calc(-90px + var(--menu-bar-height, 0px)) !important;
+}
+
+
+/* Up Next / Lyrics / Related tabs */
+paper-tab.iron-selected.ytmusic-player-page,
+tp-yt-paper-tab.iron-selected.ytmusic-player-page,
+tp-yt-paper-tab.ytmusic-player-page {
+    color: var(--cust-ytmusic-medium-3) !important;
+}
+
+paper-tabs.ytmusic-player-page {
+    --paper-tabs-selection-bar-color: var(--cust-ytmusic-medium-3) !important;
+}
+
+#selectionBar.tp-yt-paper-tabs {
+    border-bottom: 2px solid var(--cust-ytmusic-medium-3) !important;
+}
+
+
+/* Queue text */
+.byline.ytmusic-player-queue-item,
+yt-formatted-string.byline.style-scope.ytmusic-player-queue-item {
+    color: var(--cust-ytmusic-medium-1) !important;
+    --yt-endpoint-color: var(--cust-ytmusic-medium-1) !important;
+    --yt-endpoint-hover-color: var(--cust-ytmusic-light-2) !important;
+}
+
+.duration.ytmusic-player-queue-item,
+yt-formatted-string.duration.style-scope.ytmusic-player-queue-item {
+    color: var(--cust-ytmusic-light-4) !important;
+}
+
+
+/* Player bar */
+ytmusic-player-bar {
+    background: var(--cust-ytmusic-play-nav-color) !important;
+    color: var(--cust-ytmusic-medium-3) !important;
+}
+
+.time-info.ytmusic-player-bar {
+    color: var(--cust-ytmusic-light-text-1) !important;
+}
+
+
+/* Progress bar */
+#progress-bar.ytmusic-player-bar {
+    --paper-slider-container-color: var(--cust-ytmusic-light-4) !important;
+    --paper-slider-active-color: var(--ytmusic-color-white1) !important;
+}
+
+#progress-bar.ytmusic-player-bar[focused],
+ytmusic-player-bar:hover #progress-bar.ytmusic-player-bar {
+    --paper-slider-knob-color: var(--ytmusic-color-white1) !important;
+    --paper-slider-knob-start-color: var(--ytmusic-color-white1) !important;
+    --paper-slider-knob-start-border-color: var(--ytmusic-color-white1) !important;
+}
+
+
+/* Volume slider */
+paper-slider#volume-slider,
+.volume-slider.ytmusic-player-bar,
+.expand-volume-slider.ytmusic-player-bar {
+    --paper-slider-container-color: var(--cust-ytmusic-light-4) !important;
+    --paper-slider-active-color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+    --paper-slider-knob-color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+}
+
+
+/* Play / pause / skip */
+paper-icon-button#play-pause-button,
+tp-yt-iron-icon#icon,
+#play-pause-button {
+    --iron-icon-fill-color: var(--cust-ytmusic-playbutton-color) !important;
+    color: var(--cust-ytmusic-playbutton-color) !important;
+}
+
+.left-controls.ytmusic-player-bar paper-icon-button.ytmusic-player-bar,
+.left-controls.ytmusic-player-bar .spinner-container.ytmusic-player-bar,
+.toggle-player-page-button.ytmusic-player-bar {
+    --iron-icon-fill-color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+    color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+}
+
+.menu.ytmusic-player-bar {
+    --iron-icon-fill-color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+    color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+}
+
+.right-controls-buttons.ytmusic-player-bar paper-icon-button.ytmusic-player-bar,
+ytmusic-player-expanding-menu.ytmusic-player-bar paper-icon-button.ytmusic-player-bar {
+    --paper-icon-button_-_color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+    color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+}
+
+.style-scope.yt-icon-button[aria-label="Add to playlist"] {
+    color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+}
+
+
+/* Titles */
+.title.ytmusic-carousel-shelf-basic-header-renderer,
+.title.ytmusic-immersive-header-renderer,
+.description.ytmusic-immersive-header-renderer {
+    color: var(--cust-ytmusic-header-text-1) !important;
+}
+
+.title.ytmusic-header-renderer {
+    color: var(--cust-ytmusic-header-text-2) !important;
+}
+
+yt-formatted-string.strapline.text.style-scope.ytmusic-carousel-shelf-basic-header-renderer {
+    color: var(--cust-ytmusic-light-4) !important;
+}
+
+
+/* Now playing circle */
+div.content-wrapper.style-scope.ytmusic-play-button-renderer {
+    background: var(--cust-ytmusic-nowplaying-color) !important;
+}
+
+
+/* Subscribe button */
+ytmusic-subscribe-button-renderer {
+    --ytmusic-subscribe-button-color: var(--cust-ytmusic-subscribe-color) !important;
+}
+
+
+/* Generic buttons */
+yt-button-renderer[is-paper-button] {
+    background-color: var(--ytmusic-color-white1-alpha70) !important;
+}
+
+paper-icon-button {
+    --paper-icon-button_-_color: var(--ytmusic-color-white1) !important;
+}
+
+
+/* Add to library */
+ytmusic-data-bound-top-level-menu-item.ytmusic-data-bound-menu-renderer:not(:first-child) {
+    --yt-button-color: var(--ytmusic-color-white1) !important;
+    border: 1px solid var(--ytmusic-color-white1) !important;
+    border-radius: 5px !important;
+}
+
+
+/* Shuffle playlist */
+yt-button-renderer.watch-button.ytmusic-menu-renderer {
+    color: var(--ytmusic-color-white1) !important;
+    background-color: var(--ytmusic-color-white1-alpha70) !important;
+}
+
+
+/* Edit playlist */
+#top-level-buttons.ytmusic-menu-renderer > .outline-button.ytmusic-menu-renderer,
+.edit-playlist-button.ytmusic-menu-renderer,
+ytmusic-toggle-button-renderer.ytmusic-menu-renderer {
+    --yt-button-color: var(--ytmusic-color-white1) !important;
+}
+
+
+/* Explicit badge */
+yt-icon.ytmusic-inline-badge-renderer {
+    color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+}
+
+
+/* Links */
+yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {
+    color: var(--cust-ytmusic-main-text-1) !important;
+}
+
+yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string:hover {
+    color: var(--cust-ytmusic-light-2) !important;
+}
+
+
+/* Carousel buttons */
+.previous-items-button.ytmusic-carousel,
+.next-items-button.ytmusic-carousel {
+    background-color: var(--ytmusic-color-white1-alpha70) !important;
+    color: var(--ytmusic-color-black1) !important;
+}
+
+
+/* Album-art hover play button */
+.content-wrapper.ytmusic-play-button-renderer,
+ytmusic-play-button-renderer:hover .content-wrapper.ytmusic-play-button-renderer,
+ytmusic-play-button-renderer:focus .content-wrapper.ytmusic-play-button-renderer {
+    background: var(--ytmusic-color-white1-alpha70) !important;
+    --ytmusic-play-button-icon-color: var(--ytmusic-color-black1) !important;
+    --paper-spinner-color: var(--yt-spec-themed-blue) !important;
+}
+
+
+/* Like button */
+paper-icon-button.ytmusic-like-button-renderer,
+ytmusic-like-button-renderer tp-yt-paper-icon-button,
+ytmusic-like-button-renderer yt-icon {
+    color: var(--cust-ytmusic-medium-3) !important;
+}
+
+
+/* Settings */
+.category-menu-item.iron-selected.ytmusic-settings-page,
+.category-menu-item[selected].ytmusic-settings-page {
+    background-color: var(--cust-ytmusic-medium-1) !important;
+}
+
+
+/* Dropdowns and menus */
+.dropdown-content,
+tp-yt-paper-listbox,
+ytmusic-menu-popup-renderer,
+ytd-menu-popup-renderer {
+    background-color: var(--cust-ytmusic-dark-foreground) !important;
+    color: var(--cust-ytmusic-light-text-1) !important;
+}
+
+ytmusic-menu-navigation-item-renderer,
+ytmusic-menu-service-item-renderer {
+    color: var(--cust-ytmusic-main-text-1) !important;
+}
+
+
+/* Ambient / generated background override */
+div.background-gradient.style-scope.ytmusic-browse-response,
+.background-gradient.style-scope {
+    background: var(--cust-ytmusic-dark-background) !important;
+    background-image: none !important;
+}
+
+ytmusic-browse-response[has-background]:not([disable-gradient]) .background-gradient.ytmusic-browse-response {
+    background: var(--cust-ytmusic-dark-background) !important;
+}
+
+#background.immersive-background.style-scope.ytmusic-browse-response {
+    opacity: 0.15 !important;
+}
+
+
+/* Loading bar */
+yt-page-navigation-progress {
+    --yt-page-navigation-container-color: var(--cust-ytmusic-dark-foreground) !important;
+    --yt-page-navigation-progress-color: var(--cust-ytmusic-light-5) !important;
+}
+
+
+/* Scrollbars */
+::-webkit-scrollbar {
+    width: var(--cust-ytmusic-scroll-width) !important;
+    height: var(--cust-ytmusic-scroll-width) !important;
+}
+
+
+/*
+ * Optional font override:
+ *
+ * * {
+ *     font-family: FontName !important;
+ * }
+ */

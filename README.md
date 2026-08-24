@@ -23,6 +23,8 @@ As well as user submitted ones:
 
 * [Cosmic Cyan](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Cosmic%20Cyan.css)
 
+* [NieR Automata Style Theme](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/NieR%20Automata%20Style%20Theme.css)
+
 * [Sweetified YTM](https://github.com/kerichdev/themes-for-ytmdesktop-player/tree/main#Sweetified-YTM)
 
 ## Installation
@@ -124,6 +126,12 @@ Assuming you have the latest build with the theme selection menu, open the app, 
 ![Cosmic Cyan](https://i.ibb.co/9kSY106d/Cosmic-Cyan.png "Cosmic Cyan")
 
 [Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/Cosmic%20Cyan.css)
+
+### NieR Automata Style Theme
+
+![NieR Automata Style Theme](https://raw.githubusercontent.com/anthonykour/NieR-Automata-Style-Theme/main/assets/nier-automata-theme.png "NieR Automata Style Theme")
+
+[Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/NieR%20Automata%20Style%20Theme.css)
 
 ### Sweetified YTM
 
