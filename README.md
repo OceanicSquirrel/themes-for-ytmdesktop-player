@@ -129,7 +129,7 @@ Assuming you have the latest build with the theme selection menu, open the app, 
 
 ### NieR Automata Style Theme
 
-![NieR Automata Style Theme](https://raw.githubusercontent.com/anthonykour/NieR-Automata-Style-Theme/main/assets/nier-automata-theme.png "NieR Automata Style Theme")
+![NieR Automata Style Theme](https://i.ibb.co/3mxtc7dF/nier-automata-theme.png "NieR Automata Style Theme")
 
 [Get it here](https://github.com/kerichdev/themes-for-ytmdesktop-player/blob/main/Dark%20Themes/Monocolored/NieR%20Automata%20Style%20Theme.css)
 
