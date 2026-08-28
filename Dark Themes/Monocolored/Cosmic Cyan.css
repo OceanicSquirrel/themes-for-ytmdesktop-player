@@ -1,0 +1,489 @@
+/*
+ * Cosmic Cyan
+ * Pear Desktop / YouTube Music
+ * Updated for the current Bauhaus sidebar layout
+ */
+
+html:not(.style-scope) {
+
+/*===================Start of custom variables==============================*/
+/* Theme: Cosmic Cyan */
+
+    --cust-ytmusic-play-nav-color: #0b2b3a;
+    --cust-ytmusic-dark-background: #071a24;
+    --cust-ytmusic-dark-foreground: #0c2431;
+
+    --cust-ytmusic-light-text-1: #e6f7ff;
+    --cust-ytmusic-light-2: #9fe8ff;
+    --cust-ytmusic-light-3: #bfefff;
+    --cust-ytmusic-light-4: #9fe8ff85;
+    --cust-ytmusic-light-5: #4ddcff;
+
+    --cust-ytmusic-medium-1: #6bbbd6b8;
+    --cust-ytmusic-medium-2: #cfe9f2;
+    --cust-ytmusic-medium-3: #89cfe6;
+    --cust-ytmusic-medium-4: #6f8791;
+    --cust-ytmusic-medium-5: #0aa6c2;
+
+    --cust-ytmusic-subscribe-color: #00c8ff;
+    --cust-ytmusic-playbutton-color: #7adfff;
+    --cust-ytmusic-tertiary-nav-button-color: #78d7f5;
+    --cust-ytmusic-nowplaying-color: #00e5ff;
+
+    --cust-ytmusic-main-text-1: #ffffffc7;
+    --cust-ytmusic-header-text-1: #ffffffc9;
+    --cust-ytmusic-header-text-2: #ffffffc7;
+
+    --cust-ytmusic-scroll-width: 0px;
+
+/*===================end of custom variables==============================*/
+
+    --idk-yet: inherit !important;
+
+    --ytmusic-color-black1: var(--cust-ytmusic-dark-foreground) !important;
+    --ytmusic-color-black2: var(--cust-ytmusic-dark-foreground) !important;
+    --ytmusic-color-black3: var(--cust-ytmusic-dark-foreground) !important;
+    --ytmusic-color-black4: var(--cust-ytmusic-dark-background) !important;
+    --ytmusic-background: var(--cust-ytmusic-dark-background) !important;
+
+    --ytmusic-color-blackpure: var(--idk-yet) !important;
+    --ytmusic-color-blackpure-alpha0: var(--idk-yet) !important;
+    --ytmusic-color-blackpure-alpha10: var(--idk-yet) !important;
+    --ytmusic-color-blackpure-alpha60: var(--idk-yet) !important;
+
+    --ytmusic-color-grey1: var(--cust-ytmusic-light-3) !important;
+    --ytmusic-color-grey2: var(--cust-ytmusic-light-2) !important;
+    --ytmusic-color-grey3: var(--cust-ytmusic-medium-4) !important;
+    --ytmusic-color-grey4: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-grey5: var(--cust-ytmusic-medium-2) !important;
+
+    --ytmusic-color-white1: var(--cust-ytmusic-light-text-1) !important;
+    --ytmusic-color-white1-alpha10: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-white1-alpha15: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-white1-alpha20: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-white1-alpha30: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-white1-alpha50: var(--cust-ytmusic-light-4) !important;
+    --ytmusic-color-white1-alpha70: var(--cust-ytmusic-medium-1) !important;
+
+    --ytmusic-static-brand-red: var(--cust-ytmusic-light-text-1) !important;
+    --yt-spec-themed-blue: var(--cust-ytmusic-light-5) !important;
+    --yt-spec-dark-blue: var(--cust-ytmusic-medium-5) !important;
+    --yt-spec-text-secondary: var(--cust-ytmusic-medium-5) !important;
+    --yt-spec-brand-link-text: var(--cust-ytmusic-medium-5) !important;
+
+    --ytmusic-setting-item-toggle-active: var(--cust-ytmusic-light-2) !important;
+    --ytmusic-brand-link-text: var(--idk-yet) !important;
+    --ytmusic-overlay-background-brand: var(--idk-yet) !important;
+    --ytmusic-focus-active: var(--idk-yet) !important;
+    --ytmusic-detail-header: var(--idk-yet) !important;
+    --ytmusic-dialog-background-color: var(--cust-ytmusic-dark-background) !important;
+    --ytmusic-caption-1_-_color: var(--cust-ytmusic-medium-3) !important;
+
+    --ytmusic-scrollbar-width: var(--cust-ytmusic-scroll-width) !important;
+    --ytd-scrollbar-width: var(--cust-ytmusic-scroll-width) !important;
+    --ytd-scrollbar-scrubber_-_background: var(--cust-ytmusic-dark-background);
+}
+
+
+/* Pear Desktop icons */
+i.material-icons,
+i.material-icons:hover {
+    color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+}
+
+
+/* Main background */
+html,
+body,
+ytmusic-app,
+ytmusic-app-layout {
+    background: var(--cust-ytmusic-dark-background) !important;
+}
+
+
+/* Current Pear / YouTube Music navigation */
+#nav-bar-background {
+    background: var(--cust-ytmusic-play-nav-color) !important;
+}
+
+#mini-guide-background,
+#mini-guide-background.ytmusic-app-layout,
+#guide-wrapper {
+    background: var(--cust-ytmusic-dark-background) !important;
+}
+
+ytmusic-app-layout[is-bauhaus-sidenav-enabled] #mini-guide-background.ytmusic-app-layout {
+    background: var(--cust-ytmusic-dark-background) !important;
+}
+
+#nav-bar-divider {
+    border-color: var(--cust-ytmusic-medium-1) !important;
+}
+
+ytmusic-nav-bar {
+    color: var(--cust-ytmusic-main-text-1) !important;
+}
+
+
+/* Hide YouTube Music logo without hiding the new sidebar Home item */
+ytmusic-logo .yt-simple-endpoint[aria-label="Home"],
+#logo .yt-simple-endpoint[aria-label="Home"] {
+    visibility: hidden !important;
+}
+
+
+/* Home / Explore / Library colors */
+ytmusic-pivot-bar-item-renderer:hover,
+ytmusic-pivot-bar-item-renderer.iron-selected,
+ytmusic-pivot-bar-item-renderer[selected] {
+    color: var(--cust-ytmusic-light-5) !important;
+}
+
+ytmusic-pivot-bar-item-renderer {
+    color: var(--cust-ytmusic-light-4) !important;
+}
+
+
+/* New sidebar navigation */
+ytmusic-guide-entry-renderer,
+ytmusic-guide-entry-renderer a,
+ytmusic-guide-entry-renderer yt-formatted-string {
+    color: var(--cust-ytmusic-main-text-1) !important;
+}
+
+ytmusic-guide-entry-renderer:hover,
+ytmusic-guide-entry-renderer[active],
+ytmusic-guide-entry-renderer[is-active] {
+    color: var(--cust-ytmusic-light-5) !important;
+}
+
+ytmusic-guide-entry-renderer yt-icon,
+ytmusic-guide-entry-renderer tp-yt-iron-icon,
+.icon.ytmusic-menu-navigation-item-renderer {
+    color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+}
+
+
+/* Search */
+ytmusic-search-box {
+    color: var(--cust-ytmusic-light-4) !important;
+}
+
+ytmusic-search-box[is-bauhaus-sidenav-enabled] {
+    --ytmusic-search-background: var(--cust-ytmusic-dark-foreground) !important;
+}
+
+ytmusic-search-box input,
+ytmusic-search-box #input {
+    color: var(--cust-ytmusic-light-text-1) !important;
+}
+
+
+/* Sticky tabs */
+ytmusic-tabs.stuck {
+    background: var(--cust-ytmusic-play-nav-color) !important;
+}
+
+
+/* New recommendations popup */
+a.ytmusic-content-update-chip {
+    color: var(--ytmusic-color-black4) !important;
+    background-color: var(--ytmusic-color-grey2) !important;
+}
+
+
+/* Detail headers */
+ytmusic-detail-header-renderer {
+    background-color: var(--ytmusic-color-black4) !important;
+}
+
+.title.ytmusic-detail-header-renderer {
+    color: var(--cust-ytmusic-light-text-1) !important;
+}
+
+ytmusic-data-bound-header-renderer {
+    background-color: var(--cust-ytmusic-play-nav-color) !important;
+}
+
+
+/* Main content / player page */
+ytmusic-player-page,
+#player-page {
+    background-color: var(--ytmusic-color-black4) !important;
+}
+
+ytmusic-list-item-renderer {
+    background-color: var(--ytmusic-color-black1) !important;
+}
+
+ytmusic-responsive-list-item-renderer,
+ytmusic-player-queue-item {
+    background-color: var(--cust-ytmusic-dark-background) !important;
+}
+
+
+/* Current Pear player-page spacing */
+ytmusic-app-layout > [slot="player-page"]:not([is-mweb-modernization-enabled]):not(:has(ytmusic-player[player-ui-state="FULLSCREEN"])) {
+    padding-top: 90px;
+    margin-top: calc(-90px + var(--menu-bar-height, 0px)) !important;
+}
+
+
+/* Up Next / Lyrics / Related tabs */
+paper-tab.iron-selected.ytmusic-player-page,
+tp-yt-paper-tab.iron-selected.ytmusic-player-page,
+tp-yt-paper-tab.ytmusic-player-page {
+    color: var(--cust-ytmusic-medium-3) !important;
+}
+
+paper-tabs.ytmusic-player-page {
+    --paper-tabs-selection-bar-color: var(--cust-ytmusic-medium-3) !important;
+}
+
+#selectionBar.tp-yt-paper-tabs {
+    border-bottom: 2px solid var(--cust-ytmusic-medium-3) !important;
+}
+
+
+/* Queue text */
+.byline.ytmusic-player-queue-item,
+yt-formatted-string.byline.style-scope.ytmusic-player-queue-item {
+    color: var(--cust-ytmusic-medium-1) !important;
+    --yt-endpoint-color: var(--cust-ytmusic-medium-1) !important;
+    --yt-endpoint-hover-color: var(--cust-ytmusic-light-2) !important;
+}
+
+.duration.ytmusic-player-queue-item,
+yt-formatted-string.duration.style-scope.ytmusic-player-queue-item {
+    color: var(--cust-ytmusic-light-4) !important;
+}
+
+
+/* Player bar */
+ytmusic-player-bar {
+    background: var(--cust-ytmusic-play-nav-color) !important;
+    color: var(--cust-ytmusic-medium-3) !important;
+}
+
+.time-info.ytmusic-player-bar {
+    color: var(--cust-ytmusic-light-text-1) !important;
+}
+
+
+/* Progress bar */
+#progress-bar.ytmusic-player-bar {
+    --paper-slider-container-color: var(--cust-ytmusic-light-4) !important;
+    --paper-slider-active-color: var(--ytmusic-color-white1) !important;
+}
+
+#progress-bar.ytmusic-player-bar[focused],
+ytmusic-player-bar:hover #progress-bar.ytmusic-player-bar {
+    --paper-slider-knob-color: var(--ytmusic-color-white1) !important;
+    --paper-slider-knob-start-color: var(--ytmusic-color-white1) !important;
+    --paper-slider-knob-start-border-color: var(--ytmusic-color-white1) !important;
+}
+
+
+/* Volume slider */
+paper-slider#volume-slider,
+.volume-slider.ytmusic-player-bar,
+.expand-volume-slider.ytmusic-player-bar {
+    --paper-slider-container-color: var(--cust-ytmusic-light-4) !important;
+    --paper-slider-active-color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+    --paper-slider-knob-color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+}
+
+
+/* Play / pause / skip */
+paper-icon-button#play-pause-button,
+tp-yt-iron-icon#icon,
+#play-pause-button {
+    --iron-icon-fill-color: var(--cust-ytmusic-playbutton-color) !important;
+    color: var(--cust-ytmusic-playbutton-color) !important;
+}
+
+.left-controls.ytmusic-player-bar paper-icon-button.ytmusic-player-bar,
+.left-controls.ytmusic-player-bar .spinner-container.ytmusic-player-bar,
+.toggle-player-page-button.ytmusic-player-bar {
+    --iron-icon-fill-color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+    color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+}
+
+.menu.ytmusic-player-bar {
+    --iron-icon-fill-color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+    color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+}
+
+.right-controls-buttons.ytmusic-player-bar paper-icon-button.ytmusic-player-bar,
+ytmusic-player-expanding-menu.ytmusic-player-bar paper-icon-button.ytmusic-player-bar {
+    --paper-icon-button_-_color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+    color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+}
+
+.style-scope.yt-icon-button[aria-label="Add to playlist"] {
+    color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+}
+
+
+/* Titles */
+.title.ytmusic-carousel-shelf-basic-header-renderer,
+.title.ytmusic-immersive-header-renderer,
+.description.ytmusic-immersive-header-renderer {
+    color: var(--cust-ytmusic-header-text-1) !important;
+}
+
+.title.ytmusic-header-renderer {
+    color: var(--cust-ytmusic-header-text-2) !important;
+}
+
+yt-formatted-string.strapline.text.style-scope.ytmusic-carousel-shelf-basic-header-renderer {
+    color: var(--cust-ytmusic-light-4) !important;
+}
+
+
+/* Now playing circle */
+div.content-wrapper.style-scope.ytmusic-play-button-renderer {
+    background: var(--cust-ytmusic-nowplaying-color) !important;
+}
+
+
+/* Subscribe button */
+ytmusic-subscribe-button-renderer {
+    --ytmusic-subscribe-button-color: var(--cust-ytmusic-subscribe-color) !important;
+}
+
+
+/* Generic buttons */
+yt-button-renderer[is-paper-button] {
+    background-color: var(--ytmusic-color-white1-alpha70) !important;
+}
+
+paper-icon-button {
+    --paper-icon-button_-_color: var(--ytmusic-color-white1) !important;
+}
+
+
+/* Add to library */
+ytmusic-data-bound-top-level-menu-item.ytmusic-data-bound-menu-renderer:not(:first-child) {
+    --yt-button-color: var(--ytmusic-color-white1) !important;
+    border: 1px solid var(--ytmusic-color-white1) !important;
+    border-radius: 5px !important;
+}
+
+
+/* Shuffle playlist */
+yt-button-renderer.watch-button.ytmusic-menu-renderer {
+    color: var(--ytmusic-color-white1) !important;
+    background-color: var(--ytmusic-color-white1-alpha70) !important;
+}
+
+
+/* Edit playlist */
+#top-level-buttons.ytmusic-menu-renderer > .outline-button.ytmusic-menu-renderer,
+.edit-playlist-button.ytmusic-menu-renderer,
+ytmusic-toggle-button-renderer.ytmusic-menu-renderer {
+    --yt-button-color: var(--ytmusic-color-white1) !important;
+}
+
+
+/* Explicit badge */
+yt-icon.ytmusic-inline-badge-renderer {
+    color: var(--cust-ytmusic-tertiary-nav-button-color) !important;
+}
+
+
+/* Links */
+yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {
+    color: var(--cust-ytmusic-main-text-1) !important;
+}
+
+yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string:hover {
+    color: var(--cust-ytmusic-light-2) !important;
+}
+
+
+/* Carousel buttons */
+.previous-items-button.ytmusic-carousel,
+.next-items-button.ytmusic-carousel {
+    background-color: var(--ytmusic-color-white1-alpha70) !important;
+    color: var(--ytmusic-color-black1) !important;
+}
+
+
+/* Album-art hover play button */
+.content-wrapper.ytmusic-play-button-renderer,
+ytmusic-play-button-renderer:hover .content-wrapper.ytmusic-play-button-renderer,
+ytmusic-play-button-renderer:focus .content-wrapper.ytmusic-play-button-renderer {
+    background: var(--ytmusic-color-white1-alpha70) !important;
+    --ytmusic-play-button-icon-color: var(--ytmusic-color-black1) !important;
+    --paper-spinner-color: var(--yt-spec-themed-blue) !important;
+}
+
+
+/* Like button */
+paper-icon-button.ytmusic-like-button-renderer,
+ytmusic-like-button-renderer tp-yt-paper-icon-button,
+ytmusic-like-button-renderer yt-icon {
+    color: var(--cust-ytmusic-medium-3) !important;
+}
+
+
+/* Settings */
+.category-menu-item.iron-selected.ytmusic-settings-page,
+.category-menu-item[selected].ytmusic-settings-page {
+    background-color: var(--cust-ytmusic-medium-1) !important;
+}
+
+
+/* Dropdowns and menus */
+.dropdown-content,
+tp-yt-paper-listbox,
+ytmusic-menu-popup-renderer,
+ytd-menu-popup-renderer {
+    background-color: var(--cust-ytmusic-dark-foreground) !important;
+    color: var(--cust-ytmusic-light-text-1) !important;
+}
+
+ytmusic-menu-navigation-item-renderer,
+ytmusic-menu-service-item-renderer {
+    color: var(--cust-ytmusic-main-text-1) !important;
+}
+
+
+/* Ambient / generated background override */
+div.background-gradient.style-scope.ytmusic-browse-response,
+.background-gradient.style-scope {
+    background: var(--cust-ytmusic-dark-background) !important;
+    background-image: none !important;
+}
+
+ytmusic-browse-response[has-background]:not([disable-gradient]) .background-gradient.ytmusic-browse-response {
+    background: var(--cust-ytmusic-dark-background) !important;
+}
+
+#background.immersive-background.style-scope.ytmusic-browse-response {
+    opacity: 0.15 !important;
+}
+
+
+/* Loading bar */
+yt-page-navigation-progress {
+    --yt-page-navigation-container-color: var(--cust-ytmusic-dark-foreground) !important;
+    --yt-page-navigation-progress-color: var(--cust-ytmusic-light-5) !important;
+}
+
+
+/* Scrollbars */
+::-webkit-scrollbar {
+    width: var(--cust-ytmusic-scroll-width) !important;
+    height: var(--cust-ytmusic-scroll-width) !important;
+}
+
+
+/*
+ * Optional font override:
+ *
+ * * {
+ *     font-family: FontName !important;
+ * }
+ */
